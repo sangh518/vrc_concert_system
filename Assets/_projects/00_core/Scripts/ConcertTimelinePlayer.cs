@@ -39,12 +39,6 @@ namespace Merubo.Concert
 
         private void OnSyncedTimelineIndexChanged(int pre, int value)
         {
-            if (value < 0)
-            {
-                DebugLog("Stopping timeline playback.");
-                return;
-            }
-
             DebugLog("Playing timeline at index: " + value);
 
             PlayableDirector targetTimeline = null;
@@ -64,7 +58,7 @@ namespace Merubo.Concert
 
             if (targetTimeline != null)
             {
-                songDisplaySystem.StartDisplay(targetTimeline);
+                songDisplaySystem.StartDisplay(value, targetTimeline);
             }
             else
             {

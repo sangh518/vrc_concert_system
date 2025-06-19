@@ -35,9 +35,8 @@ namespace Merubo.Concert
 
         private void OnSyncedOverlayImageIndexChanged(int pre, int value)
         {
-            foreach (var listener in _listeners.ToArray())
+            foreach (var overlayImage in overlayImages)
             {
-                var overlayImage = (OverlayImage)listener.Reference;
                 overlayImage.SetOverlayImage(value);
             }
         }
@@ -45,11 +44,11 @@ namespace Merubo.Concert
         #endregion
 
         [SerializeField] private BroadCamSystem.BroadCamSystem broadCamSystem;
+        [SerializeField] private OverlayImage[] overlayImages;
         [SerializeField] private bool useKeypadControl = true;
 
         [SerializeField] private KeyCode keycodeOff, keycode1, keycode2;
 
-        private DataList _listeners;
 
         private void Start()
         {
@@ -80,16 +79,6 @@ namespace Merubo.Concert
         {
             if (OverlayImageIndex == index) SetSyncedOverlayImageIndex(-1);
             else SetSyncedOverlayImageIndex(index);
-        }
-
-        public void AddListener(OverlayImage listener)
-        {
-            if (_listeners == null)
-            {
-                _listeners = new DataList();
-            }
-
-            _listeners.Add(listener);
         }
     }
 }

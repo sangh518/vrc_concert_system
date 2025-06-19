@@ -20,7 +20,14 @@ namespace Merubo.Concert
         {
             titleText.text = title;
             authorText.text = author;
-            titleAnimator.SetTrigger("Play");
+
+            titleText.gameObject.SetActive(title != "");
+            authorText.gameObject.SetActive(author != "");
+
+            if (title != "" && author != "")
+            {
+                titleAnimator.SetTrigger("Play");
+            }
         }
 
         public override void SetSubtitle(string subtitle, string subtitleOriginal)

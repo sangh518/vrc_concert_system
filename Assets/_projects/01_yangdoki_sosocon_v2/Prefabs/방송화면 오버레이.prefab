@@ -927,7 +927,7 @@ MonoBehaviour:
   titleText: {fileID: 8461227470525272446}
   authorText: {fileID: 7129589217387543170}
   subtitleText: {fileID: 8342550667511834127}
-  subtitleOriginalText: {fileID: 7129589217387543170}
+  subtitleOriginalText: {fileID: 7178124365362015818}
 --- !u!114 &5564941463114593780
 MonoBehaviour:
   m_ObjectHideFlags: 0

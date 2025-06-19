@@ -9,13 +9,7 @@ namespace Merubo.Concert
     [DefaultExecutionOrder(-100), UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
     public class OverlayImage : UdonSharpBehaviour
     {
-        [SerializeField] private OverlayImageManager overlayImageManager;
         [SerializeField] private GameObject[] overlayImages;
-
-        private void Start()
-        {
-            overlayImageManager.AddListener(this);
-        }
 
         public void SetOverlayImage(int index)
         {

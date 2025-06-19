@@ -12,11 +12,14 @@ namespace Merubo.Concert
     [UdonBehaviourSyncMode(BehaviourSyncMode.NoVariableSync)]
     public class SongDisplaySystem : MeruboUdon
     {
+        [SerializeField] private ISongDisplay[] displays;
         [SerializeField] private SongData[] songDataList;
 
-        private DataList _listeners;
 
         private PlayableDirector _currentDirector;
+        private SongData _currentSongData;
+        private int _currentSubtitleIndex = -1;
+
 
         private void Start()
         {
@@ -25,24 +28,54 @@ namespace Merubo.Concert
 
         private void Update()
         {
-            if (_currentDirector != null) return;
-
-            var songData = GetSongData(0);
-            if (songData == null) return;
-
+            if (_currentDirector == null || _currentSongData == null) return;
             var currentTime = _currentDirector.time;
-            //TODO
-        }
 
-        public void AddListeners(ISongDisplay listener)
-        {
-            if (_listeners == null)
+            // 현재 시간에 맞는 자막 인덱스를 찾습니다.
+            int targetSubtitleIndex = -1;
+            for (int i = 0; i < _currentSongData.startTimeArray.Length; i++)
             {
-                _listeners = new DataList();
+                if (currentTime >= _currentSongData.startTimeArray[i] && currentTime < _currentSongData.endTimeArray[i])
+                {
+                    targetSubtitleIndex = i;
+                    break; // 찾았으면 반복 중단
+                }
             }
 
-            _listeners.Add(listener);
+            // 표시해야 할 자막이 변경되었을 때만 업데이트합니다.
+            if (targetSubtitleIndex != _currentSubtitleIndex)
+            {
+                _currentSubtitleIndex = targetSubtitleIndex;
+
+                if (_currentSubtitleIndex == -1)
+                {
+                    // 활성화된 자막이 없으면 자막을 지웁니다.
+                    SetSubtitle("", "");
+                }
+                else
+                {
+                    // 새로운 자막을 표시합니다.
+                    string subtitle = _currentSongData.koreanArray[_currentSubtitleIndex];
+                    string subtitleOriginal = "";
+
+                    // SongData의 subtitleType에 따라 원문 자막을 함께 표시할지 결정합니다.
+                    switch (_currentSongData.subtitleType)
+                    {
+                        case SubtitleType.Japanese:
+                        case SubtitleType.English:
+                            subtitleOriginal = _currentSongData.originalArray[_currentSubtitleIndex];
+                            break;
+                        // KoreanOnly의 경우 subtitleOriginal은 빈 문자열로 둡니다.
+                        case SubtitleType.KoreanOnly:
+                        default:
+                            break;
+                    }
+
+                    SetSubtitle(subtitle, subtitleOriginal);
+                }
+            }
         }
+
 
         public SongData GetSongData(int index)
         {
@@ -54,17 +87,39 @@ namespace Merubo.Concert
             return songDataList[index];
         }
 
-        public void StartDisplay(PlayableDirector timeline)
+        public void StartDisplay(int songIndex, PlayableDirector timeline)
         {
             _currentDirector = timeline;
             if (_currentDirector == null) return;
+            if (songIndex < 0 || songIndex >= songDataList.Length)
+            {
+                Debug.LogError("Invalid song index: " + songIndex);
+                _currentSongData = null;
+                return;
+            }
 
-            //TODO
+            _currentSongData = songDataList[songIndex];
+
+            if (_currentSongData != null)
+            {
+                // 곡이 시작될 때 제목과 아티스트를 설정합니다.
+                SetTitle(_currentSongData.title, _currentSongData.author);
+                // 자막 인덱스를 초기화하여 첫 자막이 정상적으로 표시되도록 합니다.
+                _currentSubtitleIndex = -1;
+            }
+            else
+            {
+                ClearDisplay();
+            }
+
+            SetSubtitle("", ""); // 초기 자막을 비웁니다.
         }
 
         public void ClearDisplay()
         {
             _currentDirector = null;
+            _currentSongData = null;
+            _currentSubtitleIndex = -1; // 인덱스 초기화
             SetTitle("", "");
             SetSubtitle("", "");
         }
@@ -72,23 +127,17 @@ namespace Merubo.Concert
 
         private void SetTitle(string title, string author)
         {
-            if (_listeners == null) return;
-
-            for (int i = 0; i < _listeners.Count; i++)
+            foreach (var display in displays)
             {
-                ISongDisplay listener = (ISongDisplay)_listeners[i].Reference;
-                listener.SetTitle(title, author);
+                display.SetTitle(title, author);
             }
         }
 
         private void SetSubtitle(string subtitle, string subtitleOriginal)
         {
-            if (_listeners == null) return;
-
-            for (int i = 0; i < _listeners.Count; i++)
+            foreach (var display in displays)
             {
-                ISongDisplay listener = (ISongDisplay)_listeners[i].Reference;
-                listener.SetSubtitle(subtitle, subtitleOriginal);
+                display.SetSubtitle(subtitle, subtitleOriginal);
             }
         }
     }
