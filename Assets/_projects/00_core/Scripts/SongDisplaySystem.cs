@@ -13,6 +13,7 @@ namespace Merubo.Concert
     public class SongDisplaySystem : MeruboUdon
     {
         [SerializeField] private ISongDisplay[] displays;
+        [SerializeField] private SongPromptDisplay[] promptDisplays;
         [SerializeField] private SongData[] songDataList;
 
 
@@ -49,12 +50,13 @@ namespace Merubo.Concert
 
                 if (_currentSubtitleIndex == -1)
                 {
-                    // 활성화된 자막이 없으면 자막을 지웁니다.
+                    // 활성화된 자막이 없으면 자막과 프롬프트를 지웁니다.
                     SetSubtitle("", "");
+                    SetPrompt("", ""); // 프롬프트도 비웁니다.
                 }
                 else
                 {
-                    // 새로운 자막을 표시합니다.
+                    // 1. 새로운 메인 자막을 표시합니다.
                     string subtitle = _currentSongData.koreanArray[_currentSubtitleIndex];
                     string subtitleOriginal = "";
 
@@ -72,6 +74,35 @@ namespace Merubo.Concert
                     }
 
                     SetSubtitle(subtitle, subtitleOriginal);
+
+                    // 2. 프롬프트에 사용할 자막 배열을 결정합니다.
+                    string[] promptSourceArray;
+                    if (_currentSongData.subtitleType == SubtitleType.KoreanOnly)
+                    {
+                        // KoreanOnly 타입일 경우 한국어 자막을 프롬프트로 사용합니다.
+                        promptSourceArray = _currentSongData.koreanArray;
+                    }
+                    else
+                    {
+                        // 그 외의 경우(Japanese, English 등) 원문 자막을 프롬프트로 사용합니다.
+                        promptSourceArray = _currentSongData.promptArray;
+                    }
+
+                    // 3. 현재 프롬프트와 다음 프롬프트 텍스트를 가져옵니다.
+                    string currentPrompt = promptSourceArray[_currentSubtitleIndex];
+                    string nextPrompt = "";
+
+                    // 다음 자막 인덱스를 계산합니다.
+                    int nextSubtitleIndex = _currentSubtitleIndex + 1;
+
+                    // 다음 자막이 존재하는지 확인합니다 (배열 범위 초과 방지).
+                    if (nextSubtitleIndex < promptSourceArray.Length)
+                    {
+                        nextPrompt = promptSourceArray[nextSubtitleIndex];
+                    }
+
+                    // 4. 프롬프트 디스플레이를 업데이트합니다.
+                    SetPrompt(currentPrompt, nextPrompt);
                 }
             }
         }
@@ -113,6 +144,20 @@ namespace Merubo.Concert
             }
 
             SetSubtitle("", ""); // 초기 자막을 비웁니다.
+
+            string[] promptArray;
+
+            if (_currentSongData.subtitleType == SubtitleType.KoreanOnly) promptArray = _currentSongData.koreanArray;
+            else promptArray = _currentSongData.promptArray;
+
+            string next = "";
+            if (promptArray.Length > 0)
+            {
+                // 프롬프트 배열이 비어있지 않으면 첫 번째 프롬프트를 가져옵니다.
+                next = promptArray[0];
+            }
+
+            SetPrompt("", next); // 초기 프롬프트도 비웁니다.
         }
 
         public void ClearDisplay()
@@ -122,6 +167,7 @@ namespace Merubo.Concert
             _currentSubtitleIndex = -1; // 인덱스 초기화
             SetTitle("", "");
             SetSubtitle("", "");
+            SetPrompt("", "");
         }
 
 
@@ -131,6 +177,11 @@ namespace Merubo.Concert
             {
                 display.SetTitle(title, author);
             }
+
+            foreach (var promptDisplay in promptDisplays)
+            {
+                promptDisplay.SetTitle(title, author);
+            }
         }
 
         private void SetSubtitle(string subtitle, string subtitleOriginal)
@@ -138,6 +189,14 @@ namespace Merubo.Concert
             foreach (var display in displays)
             {
                 display.SetSubtitle(subtitle, subtitleOriginal);
+            }
+        }
+
+        public void SetPrompt(string prompt, string nextPrompt)
+        {
+            foreach (var promptDisplay in promptDisplays)
+            {
+                promptDisplay.SetPrompt(prompt, nextPrompt);
             }
         }
     }
