@@ -28,6 +28,7 @@ namespace Merubo.Concert
         public SubtitleType subtitleType = SubtitleType.KoreanOnly;
         public TextAsset subtitleCsv;
         public float startOffsetTime;
+        public float titleOpenOffsetTime; // 타이틀 오픈 애니메이션 시작 시간 오프셋
 
 
         [HideInInspector] public float[] startTimeArray, endTimeArray;

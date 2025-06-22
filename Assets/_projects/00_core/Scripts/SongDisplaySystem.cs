@@ -21,6 +21,7 @@ namespace Merubo.Concert
         private SongData _currentSongData;
         private int _currentSubtitleIndex = -1;
 
+        private bool _hasTitleShown = false; // 제목이 이미 표시되었는지 여부
 
         private void Start()
         {
@@ -32,14 +33,29 @@ namespace Merubo.Concert
             if (_currentDirector == null || _currentSongData == null) return;
             var currentTime = _currentDirector.time;
 
+            if (!_hasTitleShown)
+            {
+                var titleTime = _currentSongData.titleOpenOffsetTime + _currentSongData.startOffsetTime;
+                // 현재 시간이 제목 표시 시간보다 작으면 제목을 표시하지 않습니다.
+                if (currentTime > titleTime)
+                {
+                    SetTitle(_currentSongData.title, _currentSongData.author);
+                    _hasTitleShown = true; // 제목이 표시되었음을 기록합니다.
+                }
+            }
+
+
             // 현재 시간에 맞는 자막 인덱스를 찾습니다.
             int targetSubtitleIndex = -1;
             for (int i = 0; i < _currentSongData.startTimeArray.Length; i++)
             {
-                if (currentTime >= _currentSongData.startTimeArray[i] && currentTime < _currentSongData.endTimeArray[i])
+                if (currentTime >= _currentSongData.startTimeArray[i])
                 {
-                    targetSubtitleIndex = i;
-                    break; // 찾았으면 반복 중단
+                    if (currentTime < _currentSongData.endTimeArray[i])
+                    {
+                        targetSubtitleIndex = i;
+                        break; // 찾았으면 반복 중단   
+                    }
                 }
             }
 
@@ -52,7 +68,6 @@ namespace Merubo.Concert
                 {
                     // 활성화된 자막이 없으면 자막과 프롬프트를 지웁니다.
                     SetSubtitle("", "");
-                    SetPrompt("", ""); // 프롬프트도 비웁니다.
                 }
                 else
                 {
@@ -134,7 +149,8 @@ namespace Merubo.Concert
             if (_currentSongData != null)
             {
                 // 곡이 시작될 때 제목과 아티스트를 설정합니다.
-                SetTitle(_currentSongData.title, _currentSongData.author);
+                SetTitle("", "");
+                SetPromptTitle(_currentSongData.title, _currentSongData.author);
                 // 자막 인덱스를 초기화하여 첫 자막이 정상적으로 표시되도록 합니다.
                 _currentSubtitleIndex = -1;
             }
@@ -165,9 +181,11 @@ namespace Merubo.Concert
             _currentDirector = null;
             _currentSongData = null;
             _currentSubtitleIndex = -1; // 인덱스 초기화
+            _hasTitleShown = false;
             SetTitle("", "");
             SetSubtitle("", "");
             SetPrompt("", "");
+            SetPromptTitle("", "");
         }
 
 
@@ -177,12 +195,8 @@ namespace Merubo.Concert
             {
                 display.SetTitle(title, author);
             }
-
-            foreach (var promptDisplay in promptDisplays)
-            {
-                promptDisplay.SetTitle(title, author);
-            }
         }
+
 
         private void SetSubtitle(string subtitle, string subtitleOriginal)
         {
@@ -197,6 +211,14 @@ namespace Merubo.Concert
             foreach (var promptDisplay in promptDisplays)
             {
                 promptDisplay.SetPrompt(prompt, nextPrompt);
+            }
+        }
+
+        private void SetPromptTitle(string title, string author)
+        {
+            foreach (var promptDisplay in promptDisplays)
+            {
+                promptDisplay.SetTitle(title, author);
             }
         }
     }
