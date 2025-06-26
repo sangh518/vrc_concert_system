@@ -66,6 +66,7 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
@@ -99,3 +100,4 @@ Assets/Weather TV Studio 2/
 *.hdr
 *.exr
 *.log
+*.psd

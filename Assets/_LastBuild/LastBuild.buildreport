@@ -1,0 +1,2822 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1126 &-8802531635436748973
+PackedAssets:
+  m_ShortPath: BuildPlayer-yangdoki_sosocon_v2.resource
+  m_Overhead: 0
+  m_Contents:
+  - fileID: 0
+    classID: 83
+    packedSize: 4542784
+    offset: 0
+    sourceAssetGUID: 55e73fcf90555b047af662ee9a8ffbd1
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/01_\uC0AC\uC774\uB2E4\uBC45.mp3"
+  - fileID: 0
+    classID: 83
+    packedSize: 4375584
+    offset: 0
+    sourceAssetGUID: 588fb6582cf4f504d905c4047fd1ab30
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/03_\uAD00\uAC1D\uC774\uB420\uAC8C.mp3"
+  - fileID: 0
+    classID: 83
+    packedSize: 5549344
+    offset: 0
+    sourceAssetGUID: 620d220de53b54b4584b9f6958dc2138
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/02_\uBA5C\uB77C.mp3"
+  - fileID: 0
+    classID: 83
+    packedSize: 3811264
+    offset: 0
+    sourceAssetGUID: a5b03cbba9bd19e43b031c7ede7f28f9
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/05_\uCC45\uBC29\uC624\uBE60\uBB38\uD559\uC18C\uB140.mp3"
+  - fileID: 0
+    classID: 83
+    packedSize: 5505536
+    offset: 0
+    sourceAssetGUID: aa5080c8df864364590d71432b94da55
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/07_\uC591\uB3C4\uB07C-\uB108\uC77C\uC6C3.mp3"
+  - fileID: 0
+    classID: 83
+    packedSize: 3957632
+    offset: 0
+    sourceAssetGUID: d2a1c8e83a751f644bc13ae95e967c2f
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/06_\uBA5C\uB85C\uB9DD\uC2A4-\uBD80\uB044\uB7FC.mp3"
+  - fileID: 0
+    classID: 83
+    packedSize: 4851424
+    offset: 0
+    sourceAssetGUID: daab7008bf1aa30469fa2c2325995ec8
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/08_\uC694\uC544\uC18C\uBE44-\uBC14\uB2E4\uAC00\uC774\uB044\uB294\uB300\uB85C.mp3"
+  - fileID: 0
+    classID: 83
+    packedSize: 3607616
+    offset: 0
+    sourceAssetGUID: edd2d41fcd8e0414b9fe4bebdcb542e5
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/04_\uC18C\uBB38\uC758\uADF8\uC560.mp3"
+--- !u!641289076 &-4643501867793082405
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 8
+  m_AudioMixerCount: 0
+--- !u!382020655 &-4160960703637086800
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - VRC.Udon.VM
+  - VRC.SDK3.Dynamics.PhysBone
+  - VRC.Udon.Security
+  - libvrc_fast_crypto
+  - VRCEconomy
+  - libvrc_image_loader
+  - YamlDotNet
+  - VRCSDK3
+  - nunit.framework
+  - VRCCore-Editor
+  - Serilog.Sinks.File
+  - vrc_fast_crypto
+  - VRC.SDK3.Dynamics.Contact
+  - System.Collections.Immutable
+  - OculusXRPlugin
+  - VRC.Udon.Wrapper
+  - vrc_image_loader
+  - Unity.Burst.Unsafe
+  - SemanticVersioning
+  - librsync.net
+  - OVRPlugin
+  - System.Runtime.CompilerServices.Unsafe
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - VRC.Udon.Common
+  - VRC.Udon.VRCWrapperModules
+  - VRC.Dynamics
+  - VRCSDKBase
+  - VRC.Utility
+  - portmidi
+  - VRC.Udon.ClientBindings
+  - SDKBase-Legacy
+  - Blake2Sharp
+  - VRC.SDK3.Dynamics.Constraint
+  - System.Text.Encoding.CodePages
+  - Serilog
+  - Collections.Pooled
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRC.Udon.VRCGraphModules
+  - VRC.Udon.EditorBindings
+  - 0Harmony
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - libvrc_shader_compiler_plugin
+  - Mono.Cecil.Pdb
+  - JetBrains.Rider.PathLocator
+  - OpenImageDenoise_core
+  - d3dcompiler_47
+  - vrc_shader_compiler_plugin
+  - VRCSDKBase-Editor
+  - uvgbuffergen
+  - OIDN2
+  - VRC.Udon.VRCTypeResolverModules
+  - optix.1
+  - halffloat2vb
+  - optix_denoiser.6.0.0
+  - cudart64_91
+  - VRCEconomy-Editor
+  - simpleProgressBar
+  - ICSharpCode.SharpZipLib
+  - Microsoft.CodeAnalysis.CSharp
+  - cudart32_91
+  - VRC.SDK3.Dynamics.Constraint.Editor
+  - alphabuffergen
+  - AppleEventIntegration
+  - optix.6.0.0
+  - OpenImageDenoise_device_cuda
+  - Mono.Cecil
+  - optix.51
+  - VRC.Udon.Graph
+  - optix_denoiser.51
+  - Unity.Burst.Cecil.Pdb
+  - Mono.Cecil.Rocks
+  - Microsoft.CodeAnalysis
+  - frender
+  - tbbbind_2_0
+  - VRC.Udon.Compiler
+  - xatlasLib
+  - System.Reflection.Metadata
+  - VRCSDK3-Editor
+  - Mono.Cecil.Mdb
+  - tbb12
+  - Serilog.Sinks.Unity3D
+  - tbbmalloc
+  - lmrebake
+  - cudart64_90
+  - Algolia.Search
+  - uvrepack
+  - Unity.Burst.Cecil.Mdb
+  - cudnn64_7
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - Unity.Burst.Cecil
+  - tbbbind_2_5
+  - Unity.Burst.Cecil.Rocks
+  - vpm-core-lib
+  - tbbbind
+  - VRC.Udon.UAssembly
+--- !u!668709126 &-180172161139639922
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-yangdoki_sosocon_v2-adeb520e-cf37-455b-b9bc-4fefc0cdbe40.vrcw
+    bundleArchiveFile: 3
+    packagedFileIndices: 000000000100000002000000
+  - bundleName: vrc_concert_system
+    bundleArchiveFile: 6
+    packagedFileIndices: 05000000
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Build AssetBundles
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638863735708708083
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 0
+    assetBundleOptions: 32
+    outputPath: C:/Users/USER/AppData/Local/Temp/DefaultCompany/vrc_concert_system
+    crc: 3300481458
+    totalSize: 57004652
+    totalTimeTicks: 418793938
+    totalErrors: 1
+    totalWarnings: 5
+    buildType: 2
+    buildResult: 1
+  m_Files:
+  - path: E:/Projects/UnityProjects/vrc_concert_system/scene-standalonewindows64-yangdoki_sosocon_v2-adeb520e-cf37-455b-b9bc-4fefc0cdbe40.vrcw/BuildPlayer-yangdoki_sosocon_v2
+    role: Scene
+    id: 0
+    totalSize: 29938820
+  - path: E:/Projects/UnityProjects/vrc_concert_system/scene-standalonewindows64-yangdoki_sosocon_v2-adeb520e-cf37-455b-b9bc-4fefc0cdbe40.vrcw/BuildPlayer-yangdoki_sosocon_v2.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 80625124
+  - path: E:/Projects/UnityProjects/vrc_concert_system/scene-standalonewindows64-yangdoki_sosocon_v2-adeb520e-cf37-455b-b9bc-4fefc0cdbe40.vrcw/BuildPlayer-yangdoki_sosocon_v2.resource
+    role: StreamingResourceFile
+    id: 2
+    totalSize: 36201184
+  - path: E:/Projects/UnityProjects/vrc_concert_system/scene-standalonewindows64-yangdoki_sosocon_v2-adeb520e-cf37-455b-b9bc-4fefc0cdbe40.vrcw
+    role: AssetBundle
+    id: 3
+    totalSize: 56997795
+  - path: E:/Projects/UnityProjects/vrc_concert_system/scene-standalonewindows64-yangdoki_sosocon_v2-adeb520e-cf37-455b-b9bc-4fefc0cdbe40.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 4
+    totalSize: 5547
+  - path: E:/Projects/UnityProjects/vrc_concert_system/vrc_concert_system/CAB-875338fe04a90c894493866483f47c0e
+    role: ResourcesFile
+    id: 5
+    totalSize: 4292
+  - path: E:/Projects/UnityProjects/vrc_concert_system/vrc_concert_system
+    role: ManifestAssetBundle
+    id: 6
+    totalSize: 1095
+  - path: E:/Projects/UnityProjects/vrc_concert_system/vrc_concert_system.manifest
+    role: AssetBundleTextManifest
+    id: 7
+    totalSize: 215
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 418793938
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 2426536
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 41860606
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 41296607
+    depth: 2
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 487177
+    depth: 2
+    messages: []
+  - stepName: Build Scene AssetBundle(s)
+    durationTicks: 347517663
+    depth: 1
+    messages: []
+  - stepName: 'Build bundle: scene-standalonewindows64-yangdoki_sosocon_v2-adeb520e-cf37-455b-b9bc-4fefc0cdbe40.vrcw'
+    durationTicks: 342433110
+    depth: 2
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 435366
+    depth: 3
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 909059
+    depth: 3
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 33172
+    depth: 3
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Building scenes
+    durationTicks: 26240017
+    depth: 3
+    messages: []
+  - stepName: Building scene Assets/_projects/01_yangdoki_sosocon_v2/yangdoki_sosocon_v2.unity
+    durationTicks: 26239811
+    depth: 4
+    messages:
+    - type: 3
+      content: Computed code signatures for 153 scripts of type SerializedUdonProgramAsset
+        in 9ms
+  - stepName: Writing asset files
+    durationTicks: 14235476
+    depth: 3
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-yangdoki_sosocon_v2/BuildPlayer-yangdoki_sosocon_v2.sharedAssets
+    durationTicks: 14160920
+    depth: 4
+    messages:
+    - type: 0
+      content: 'Shader error in ''Noriben/noribenBeamLight'': Couldn''t open include
+        file ''../../../AudioLink/Shaders/AudioLink.cginc''. at line 75'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
+        for #pragma exclude_renderers: webgpu at line 278'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/Uber'': Unrecognized renderer
+        for #pragma only_renderers: webgpu at line 293'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma exclude_renderers: webgpu at line 102'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma exclude_renderers: webgpu at line 118'
+    - type: 2
+      content: 'Shader warning in ''Hidden/PostProcessing/FinalPass'': Unrecognized
+        renderer for #pragma only_renderers: webgpu at line 150'
+  - stepName: Creating compressed player package
+    durationTicks: 292065276
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 491274
+    depth: 3
+    messages: []
+  m_Appendices:
+  - {fileID: -180172161139639922}
+  - {fileID: 3725700312900414881}
+  - {fileID: -8802531635436748973}
+  - {fileID: -4160960703637086800}
+  - {fileID: -4643501867793082405}
+  - {fileID: 1021398758572670938}
+  - {fileID: 2328162314781604392}
+--- !u!1521398425 &1021398758572670938
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!1126 &2328162314781604392
+PackedAssets:
+  m_ShortPath: CAB-875338fe04a90c894493866483f47c0e
+  m_Overhead: 4032
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4032
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 156
+    offset: 4136
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!1126 &3725700312900414881
+PackedAssets:
+  m_ShortPath: BuildPlayer-yangdoki_sosocon_v2.sharedAssets
+  m_Overhead: 201211
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 121
+    offset: 204832
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 240
+    offset: 204960
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1780
+    offset: 205200
+    sourceAssetGUID: f5da8db6e9f538f45afa2747042b127c
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium
+      SDF.asset
+  - fileID: 4
+    classID: 21
+    packedSize: 1780
+    offset: 206984
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 5
+    classID: 21
+    packedSize: 268
+    offset: 208768
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 6
+    classID: 21
+    packedSize: 1148
+    offset: 209040
+    sourceAssetGUID: 8fc76bab916009e498c7d5670934162e
+    buildTimeAssetPath: Assets/NoribenLunch/noribenBeamlight/OldModel/Materials/BeamLight
+      2.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 912
+    offset: 210192
+    sourceAssetGUID: 0bf84a0ddf83ab7469be1ee7216016e5
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Bar_mat/Bar
+      Frame_tex.mat
+  - fileID: 8
+    classID: 21
+    packedSize: 908
+    offset: 211104
+    sourceAssetGUID: da2920d63b744d94a8a0a59004c789b8
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Bar_mat/Bar
+      Roof_tex.mat
+  - fileID: 9
+    classID: 21
+    packedSize: 912
+    offset: 212016
+    sourceAssetGUID: 807d35bc927437d4282def0b56e604b7
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Bar_mat/Bar
+      Stool_tex.mat
+  - fileID: 10
+    classID: 21
+    packedSize: 908
+    offset: 212928
+    sourceAssetGUID: a8480705c6267c9498cbe4349230ec68
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Bar_mat/Main
+      Bar_tex.mat
+  - fileID: 11
+    classID: 21
+    packedSize: 904
+    offset: 213840
+    sourceAssetGUID: a317ea761b51f8140a43e1bf06f934b2
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Bar_mat/Sign_tex.mat
+  - fileID: 12
+    classID: 21
+    packedSize: 912
+    offset: 214744
+    sourceAssetGUID: af90781165217f2488557c9badb27b24
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Bar_mat/Sink
+      Bowl_tex.mat
+  - fileID: 13
+    classID: 21
+    packedSize: 904
+    offset: 215656
+    sourceAssetGUID: 5a009fb8d9972d847a9fdc47af1fbd8a
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Bar_mat/Tap_tex.mat
+  - fileID: 14
+    classID: 21
+    packedSize: 912
+    offset: 216560
+    sourceAssetGUID: d7202247720f10c4eaf342bafd3cb614
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Chairs_mat/Deck
+      Chair Frame.mat
+  - fileID: 15
+    classID: 21
+    packedSize: 904
+    offset: 217472
+    sourceAssetGUID: 12abb0b73db067e499684915e4c9c621
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Chairs_mat/Fabric.mat
+  - fileID: 16
+    classID: 21
+    packedSize: 912
+    offset: 218376
+    sourceAssetGUID: a89d4485162dee241beae88e231cbb7f
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Chairs_mat/Lounger
+      Frame.mat
+  - fileID: 17
+    classID: 21
+    packedSize: 912
+    offset: 219288
+    sourceAssetGUID: ff1a209f77dd70946ab07d766ec19af8
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Beach Chairs_mat/Lounger
+      Planks.mat
+  - fileID: 18
+    classID: 21
+    packedSize: 904
+    offset: 220200
+    sourceAssetGUID: e253c5f5305835c4fade1253b5a6f026
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Changing
+      Room Variations/CR Blue.mat
+  - fileID: 19
+    classID: 21
+    packedSize: 912
+    offset: 221104
+    sourceAssetGUID: 7d108408660f89944928255f2a08aabc
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Closed
+      Box_tex.mat
+  - fileID: 20
+    classID: 21
+    packedSize: 900
+    offset: 222016
+    sourceAssetGUID: fb1fcac8b6ebd2c458c72ead66319888
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Duck.mat
+  - fileID: 21
+    classID: 21
+    packedSize: 904
+    offset: 222920
+    sourceAssetGUID: c1f8f54f613debd4dad3abbc796f709f
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Handle.mat
+  - fileID: 22
+    classID: 21
+    packedSize: 900
+    offset: 223824
+    sourceAssetGUID: e029f04d66bbf914c9f4d1146e30d586
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Leaf.mat
+  - fileID: 23
+    classID: 21
+    packedSize: 900
+    offset: 224728
+    sourceAssetGUID: d7fd1975b1fd5624e8dafe1560f756a4
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Tree.mat
+  - fileID: 24
+    classID: 21
+    packedSize: 904
+    offset: 225632
+    sourceAssetGUID: 6c5f09bf00f61f946bbf7cd4387c9a12
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Umbrella.mat
+  - fileID: 25
+    classID: 21
+    packedSize: 908
+    offset: 226536
+    sourceAssetGUID: d65c4991a1597874dbe42c916e62591f
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Materials/Volleyball.mat
+  - fileID: 26
+    classID: 21
+    packedSize: 1240
+    offset: 227448
+    sourceAssetGUID: eb2cc0b322b6e8a4b8dada3f75192d08
+    buildTimeAssetPath: Assets/_ignore/NOT_Lonely/HQ_RetroFarmhouse/Meshes/Materials/BathCurtain_mtl
+      1.mat
+  - fileID: 27
+    classID: 21
+    packedSize: 4804
+    offset: 228688
+    sourceAssetGUID: 2ee1a92f9d57d304da817931391c4f41
+    buildTimeAssetPath: Assets/_ignore/StageVol1/Materials/M_Emisive_V1.mat
+  - fileID: 28
+    classID: 21
+    packedSize: 4820
+    offset: 233496
+    sourceAssetGUID: e85ba55de9f520542a4d2f4bead07ea1
+    buildTimeAssetPath: Assets/_ignore/StageVol1/Materials/M_Trimsheet_V1.mat
+  - fileID: 29
+    classID: 21
+    packedSize: 904
+    offset: 238320
+    sourceAssetGUID: b784378dfd3774537b47cfb13b9fc1d5
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Materials/Material.mat
+  - fileID: 30
+    classID: 21
+    packedSize: 976
+    offset: 239224
+    sourceAssetGUID: fa542ab47cc7bb3418c35926f8cab963
+    buildTimeAssetPath: Assets/_ignore/YughuesFreeSandMaterials/Materials/M_YFSM_Sand01.mat
+  - fileID: 31
+    classID: 21
+    packedSize: 968
+    offset: 240200
+    sourceAssetGUID: 7b148af72d6f0964ba350a667c0b8a71
+    buildTimeAssetPath: Assets/_ignore/_Materials/ConcreteSlabs01.mat
+  - fileID: 32
+    classID: 21
+    packedSize: 924
+    offset: 241168
+    sourceAssetGUID: 77de10d13e4c42c499ad900623958faa
+    buildTimeAssetPath: Assets/_ignore/condenser_mic/mate/metal_gloss.mat
+  - fileID: 33
+    classID: 21
+    packedSize: 924
+    offset: 242096
+    sourceAssetGUID: 2711fd18e842e0e47a44fc4613f13050
+    buildTimeAssetPath: Assets/_ignore/condenser_mic/mate/metal_mat.mat
+  - fileID: 34
+    classID: 21
+    packedSize: 980
+    offset: 243024
+    sourceAssetGUID: 93d9449da6d139e44b57878b50a8f967
+    buildTimeAssetPath: Assets/_ignore/condenser_mic/mate/normal.mat
+  - fileID: 35
+    classID: 21
+    packedSize: 920
+    offset: 244008
+    sourceAssetGUID: a13e83a98f24c5a428c825a14585a19c
+    buildTimeAssetPath: Assets/_ignore/condenser_mic/mate/plastic.mat
+  - fileID: 36
+    classID: 21
+    packedSize: 912
+    offset: 244928
+    sourceAssetGUID: c6c60ba6751bb494fab53724d8144749
+    buildTimeAssetPath: "Assets/_merubo/Features/BroadCamSystem/_internals/Materials/\uCE74\uBA54\uB77C
+      \uBC14\uB514.mat"
+  - fileID: 37
+    classID: 21
+    packedSize: 928
+    offset: 245840
+    sourceAssetGUID: 644449d048458024ebeaa87e56eff0fb
+    buildTimeAssetPath: "Assets/_merubo/Features/BroadCamSystem/_internals/Materials/\uCE74\uBA54\uB77C
+      \uD5E4\uB4DC.mat"
+  - fileID: 38
+    classID: 21
+    packedSize: 552
+    offset: 246768
+    sourceAssetGUID: 868eaf7d5f5987041a88cf050137e905
+    buildTimeAssetPath: "Assets/_merubo/Features/BroadCamSystem/_internals/Materials/\uD578\uB4DC\uCEA0
+      \uBBF8\uB9AC\uBCF4\uAE30.mat"
+  - fileID: 39
+    classID: 21
+    packedSize: 1756
+    offset: 247320
+    sourceAssetGUID: 93d0babde4c3a9d4189b1b1b782e3d0f
+    buildTimeAssetPath: "Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      \uAE30\uBCF8.mat"
+  - fileID: 40
+    classID: 21
+    packedSize: 1772
+    offset: 249080
+    sourceAssetGUID: 008b7eeef01e63b4fa6e405ec4133e9c
+    buildTimeAssetPath: "Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      \uC790\uB9C9.mat"
+  - fileID: 41
+    classID: 21
+    packedSize: 980
+    offset: 250856
+    sourceAssetGUID: 868e16cbb85a28e4eb75c12133cb8e38
+    buildTimeAssetPath: "Assets/_projects/00_core/Assets/Materials/\uB85C\uACE0 1.mat"
+  - fileID: 42
+    classID: 21
+    packedSize: 920
+    offset: 251840
+    sourceAssetGUID: 8c1adf4e075774741a211183458e84fc
+    buildTimeAssetPath: "Assets/_projects/00_core/Assets/Materials/\uBC14\uB2E5.mat"
+  - fileID: 43
+    classID: 21
+    packedSize: 964
+    offset: 252760
+    sourceAssetGUID: 898d2156d65161d40ae218169f45fd26
+    buildTimeAssetPath: "Assets/_projects/00_core/Assets/Materials/\uCE74\uBA54\uB77C.mat"
+  - fileID: 44
+    classID: 21
+    packedSize: 908
+    offset: 253728
+    sourceAssetGUID: 8c2179a8b5561d449a43e5730732ec2b
+    buildTimeAssetPath: "Assets/_projects/00_core/Assets/Materials/\uCF58\uC11C\uD2B8\uBCBD.mat"
+  - fileID: 45
+    classID: 21
+    packedSize: 928
+    offset: 254640
+    sourceAssetGUID: 31200b0fb2ba1b147b8903c126183979
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Materials/\uC804\uBA74\uC2A4\uD06C\uB9B0.mat"
+  - fileID: 46
+    classID: 21
+    packedSize: 912
+    offset: 255568
+    sourceAssetGUID: e62b9e982ccc26348b79d769673e44a5
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Materials/\uD6C4\uBA74\uC2A4\uD06C\uB9B0.mat"
+  - fileID: 47
+    classID: 21
+    packedSize: 812
+    offset: 256480
+    sourceAssetGUID: c22777d6e868e4f2fb421913386b154e
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  - fileID: 48
+    classID: 21
+    packedSize: 1152
+    offset: 257296
+    sourceAssetGUID: c815f7613a04b724089c206857e57c6a
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Materials/MirrorReflection.mat
+  - fileID: 49
+    classID: 21
+    packedSize: 148
+    offset: 258448
+    sourceAssetGUID: 03d7be96a5d4468478d77742e60f4c04
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM.TTF
+  - fileID: 50
+    classID: 21
+    packedSize: 148
+    offset: 258600
+    sourceAssetGUID: 892698a4aac8c3a40b5293ff3c97a12f
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium.ttf
+  - fileID: 51
+    classID: 21
+    packedSize: 904
+    offset: 258752
+    sourceAssetGUID: dfd1b4752b783ac4280b97781c1a5188
+    buildTimeAssetPath: Assets/_ignore/Etc/Dot_Stool.blend
+  - fileID: 52
+    classID: 28
+    packedSize: 1048720
+    offset: 259656
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 53
+    classID: 28
+    packedSize: 1048720
+    offset: 1308376
+    sourceAssetGUID: f5da8db6e9f538f45afa2747042b127c
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium
+      SDF.asset
+  - fileID: 54
+    classID: 28
+    packedSize: 1048720
+    offset: 2357096
+    sourceAssetGUID: f5da8db6e9f538f45afa2747042b127c
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium
+      SDF.asset
+  - fileID: 55
+    classID: 28
+    packedSize: 1048720
+    offset: 3405816
+    sourceAssetGUID: f5da8db6e9f538f45afa2747042b127c
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium
+      SDF.asset
+  - fileID: 56
+    classID: 28
+    packedSize: 1048720
+    offset: 4454536
+    sourceAssetGUID: f5da8db6e9f538f45afa2747042b127c
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium
+      SDF.asset
+  - fileID: 57
+    classID: 28
+    packedSize: 1048720
+    offset: 5503256
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 58
+    classID: 28
+    packedSize: 1048720
+    offset: 6551976
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 59
+    classID: 28
+    packedSize: 1048720
+    offset: 7600696
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 60
+    classID: 28
+    packedSize: 5584
+    offset: 8649416
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 61
+    classID: 28
+    packedSize: 5588
+    offset: 8655000
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 62
+    classID: 28
+    packedSize: 4224
+    offset: 8660592
+    sourceAssetGUID: 02c0a84bd64c6f044954d8bde9b46ec8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png
+  - fileID: 63
+    classID: 28
+    packedSize: 128
+    offset: 8664816
+    sourceAssetGUID: 03d7be96a5d4468478d77742e60f4c04
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM.TTF
+  - fileID: 64
+    classID: 28
+    packedSize: 4194440
+    offset: 8664944
+    sourceAssetGUID: 05f0663f8df17544192061075c892bbc
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Images/\uC18C\uC18C\uCF58_\uB85C\uACE0_\uB300.png"
+  - fileID: 65
+    classID: 28
+    packedSize: 110008
+    offset: 12859384
+    sourceAssetGUID: 066749a6b97fae547b7e68d27e42150b
+    buildTimeAssetPath: Assets/_ignore/_Textures/ConcreteSlabs01_o.png
+  - fileID: 66
+    classID: 28
+    packedSize: 699196
+    offset: 12969392
+    sourceAssetGUID: 093b3cb8a4d502343bb250bc0a9ed3b2
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Bar_tex/Bar
+      Frame_tex.png
+  - fileID: 67
+    classID: 28
+    packedSize: 4224
+    offset: 13668592
+    sourceAssetGUID: 09f6c01f98a3ded4daf1afc52a3c260f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_26.png
+  - fileID: 68
+    classID: 28
+    packedSize: 4224
+    offset: 13672816
+    sourceAssetGUID: 0a79c155edf9b2d429d4736abee5acdb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_35.png
+  - fileID: 69
+    classID: 28
+    packedSize: 174908
+    offset: 13677040
+    sourceAssetGUID: 0c213e4de209baa4e81a7cb3e4fa389e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Bar_tex/Sink
+      Bowl_tex.png
+  - fileID: 70
+    classID: 28
+    packedSize: 1398256
+    offset: 13851952
+    sourceAssetGUID: 0e523dcf884a2ee45ac915ce4d149c67
+    buildTimeAssetPath: Assets/_ignore/YughuesFreeSandMaterials/Textures/T_YFSM_01_n.tga
+  - fileID: 71
+    classID: 28
+    packedSize: 65664
+    offset: 15250208
+    sourceAssetGUID: 0f8fa14b3731cda4e947062e734d5e1e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_1.png
+  - fileID: 72
+    classID: 28
+    packedSize: 4224
+    offset: 15315872
+    sourceAssetGUID: 0fa10b21877c61b4db40ba5708815f81
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_30.png
+  - fileID: 73
+    classID: 28
+    packedSize: 699196
+    offset: 15320096
+    sourceAssetGUID: 10cb37419c7305e468849484571e4b79
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Bar_tex/Bar
+      Stool_tex.png
+  - fileID: 74
+    classID: 28
+    packedSize: 699208
+    offset: 16019296
+    sourceAssetGUID: 11545c4970ab82045994fbfc906cc186
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Images/\uC5EC\uB984\uBC30\uACBD.psd"
+  - fileID: 75
+    classID: 28
+    packedSize: 4224
+    offset: 16718504
+    sourceAssetGUID: 119591e0bb084e848835d237546b3882
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_61.png
+  - fileID: 76
+    classID: 28
+    packedSize: 4224
+    offset: 16722728
+    sourceAssetGUID: 1378a33cdd085d64c9da863d2484ff21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_47.png
+  - fileID: 77
+    classID: 28
+    packedSize: 83736
+    offset: 16726952
+    sourceAssetGUID: 145b465ef36f6b74ea2dc0a5aa871996
+    buildTimeAssetPath: Assets/_ignore/_Textures/ConcreteSlabs01_h.png
+  - fileID: 78
+    classID: 28
+    packedSize: 4224
+    offset: 16810688
+    sourceAssetGUID: 153f7d6dfbe713d4884df0f1e243ba92
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_16.png
+  - fileID: 79
+    classID: 28
+    packedSize: 4224
+    offset: 16814912
+    sourceAssetGUID: 15e54aa23a938444389469d53765d741
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_44.png
+  - fileID: 80
+    classID: 28
+    packedSize: 219180
+    offset: 16819136
+    sourceAssetGUID: 167ea8ad5645a434a8db22cbd24e0ec1
+    buildTimeAssetPath: Assets/_ignore/_Textures/ConcreteSlabs01_n.png
+  - fileID: 81
+    classID: 28
+    packedSize: 2796344
+    offset: 17038320
+    sourceAssetGUID: 169e02b9f3225a64685972812a06b21a
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Bar_tex/Main
+      Bar_tex.png
+  - fileID: 82
+    classID: 28
+    packedSize: 133336
+    offset: 19834664
+    sourceAssetGUID: 17939f3f30839be4d8d95933abc19b63
+    buildTimeAssetPath: Assets/_ignore/_Textures/ConcreteSlabs01_a.png
+  - fileID: 83
+    classID: 28
+    packedSize: 4224
+    offset: 19968000
+    sourceAssetGUID: 1a9ce5640cde5934aae0022f020464a6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_40.png
+  - fileID: 84
+    classID: 28
+    packedSize: 65664
+    offset: 19972224
+    sourceAssetGUID: 1abfe0e165ca1e9428b455ffc9a2d9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_2.png
+  - fileID: 85
+    classID: 28
+    packedSize: 4224
+    offset: 20037888
+    sourceAssetGUID: 1d6958e30e40a254dbe5a54c573eeb3c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png
+  - fileID: 86
+    classID: 28
+    packedSize: 4224
+    offset: 20042112
+    sourceAssetGUID: 2ee161d8945169243b5698fec114e1b7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_15.png
+  - fileID: 87
+    classID: 28
+    packedSize: 4224
+    offset: 20046336
+    sourceAssetGUID: 319b8e66db3faa4438cf6982e9c89b2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_34.png
+  - fileID: 88
+    classID: 28
+    packedSize: 4224
+    offset: 20050560
+    sourceAssetGUID: 32c6a5f7143b86c44bd5cdee2ff3f8ad
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_24.png
+  - fileID: 89
+    classID: 28
+    packedSize: 1398264
+    offset: 20054784
+    sourceAssetGUID: 32fda4787669c0e458b383738f8aea6f
+    buildTimeAssetPath: Assets/_ignore/_Textures/apartment_wall01_NRM.png
+  - fileID: 90
+    classID: 28
+    packedSize: 4224
+    offset: 21453048
+    sourceAssetGUID: 351e95d0e20a54849bd4ce5f9b498934
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_36.png
+  - fileID: 91
+    classID: 28
+    packedSize: 4224
+    offset: 21457272
+    sourceAssetGUID: 373f9bf6b0841af4ebf26d25e4a3f4e2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_3.png
+  - fileID: 92
+    classID: 28
+    packedSize: 4224
+    offset: 21461496
+    sourceAssetGUID: 3ac02e7e783571c468f9c086d2384ba7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_7.png
+  - fileID: 93
+    classID: 28
+    packedSize: 10996
+    offset: 21465720
+    sourceAssetGUID: 3ace800a99a92ab4ba56bf9f1b647924
+    buildTimeAssetPath: Assets/_ignore/NOT_Lonely/HQ_RetroFarmhouse/Textures/Unwrapped/BathCurtain/BathCurtain_ao.tif
+  - fileID: 94
+    classID: 28
+    packedSize: 4224
+    offset: 21476720
+    sourceAssetGUID: 3c2f1fb7e4b66e74191b7c328ada52d9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png
+  - fileID: 95
+    classID: 28
+    packedSize: 4224
+    offset: 21480944
+    sourceAssetGUID: 3f7c3687170b90e4a8d2ee6b142670f4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_49.png
+  - fileID: 96
+    classID: 28
+    packedSize: 4224
+    offset: 21485168
+    sourceAssetGUID: 404fa8def46b1c447817e1ebdaa7144e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_60.png
+  - fileID: 97
+    classID: 28
+    packedSize: 174900
+    offset: 21489392
+    sourceAssetGUID: 43426801f255970439e2015d6379162b
+    buildTimeAssetPath: Assets/NoribenLunch/noribenBeamlight/Textures/NoiseTex.png
+  - fileID: 98
+    classID: 28
+    packedSize: 191976
+    offset: 21664296
+    sourceAssetGUID: 47bb4d27704d76242b9e02b1d1a62e6c
+    buildTimeAssetPath: Assets/_ignore/_Textures/ConcreteSlabs01_m.png
+  - fileID: 99
+    classID: 28
+    packedSize: 174900
+    offset: 21856272
+    sourceAssetGUID: 47bb82dac0a42e24b8ea49a23eac52a5
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Duck_tex.png
+  - fileID: 100
+    classID: 28
+    packedSize: 4224
+    offset: 22031176
+    sourceAssetGUID: 4a11d65ce13d5f542a0ff136cc2f3fba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_63.png
+  - fileID: 101
+    classID: 28
+    packedSize: 4224
+    offset: 22035400
+    sourceAssetGUID: 50b54341495978843a6f85583ed4417d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_0.png
+  - fileID: 102
+    classID: 28
+    packedSize: 4224
+    offset: 22039624
+    sourceAssetGUID: 547dbd5f858c74047ba3f213e4408307
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_39.png
+  - fileID: 103
+    classID: 28
+    packedSize: 4224
+    offset: 22043848
+    sourceAssetGUID: 5e542d0126a2c7848b66bffc428905fd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_55.png
+  - fileID: 104
+    classID: 28
+    packedSize: 5592568
+    offset: 22048072
+    sourceAssetGUID: 5f87b9dd91d906d4ca33529daf1c7228
+    buildTimeAssetPath: Assets/_ignore/condenser_mic/tex/condenser_mic_tex.png
+  - fileID: 105
+    classID: 28
+    packedSize: 65664
+    offset: 27640640
+    sourceAssetGUID: 6017f374382d64245a0a4aab668e6f38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_0.png
+  - fileID: 106
+    classID: 28
+    packedSize: 174908
+    offset: 27706304
+    sourceAssetGUID: 6116ec7e8177ab94584192a1a389df56
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Volleyball_tex.png
+  - fileID: 107
+    classID: 28
+    packedSize: 174908
+    offset: 27881216
+    sourceAssetGUID: 6344bf96fbda94141a525046d088fb23
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Resources/Textures/GridBox_Default.png
+  - fileID: 108
+    classID: 28
+    packedSize: 820
+    offset: 28056128
+    sourceAssetGUID: 650ea72397879874f815012c93fa3d22
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Bar_tex/Tap_tex.png
+  - fileID: 109
+    classID: 28
+    packedSize: 4194452
+    offset: 28056952
+    sourceAssetGUID: 678683bd7e579b44388f9974e65b60b3
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Images/\uC18C\uC18C\uCF58-\uB85C\uACE0-\uAE00\uC528\uC5C6\uC74C.png"
+  - fileID: 110
+    classID: 28
+    packedSize: 4224
+    offset: 32251408
+    sourceAssetGUID: 68613e6a221be1a4b9f31d7fa1c2d1bf
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_13.png
+  - fileID: 111
+    classID: 28
+    packedSize: 4224
+    offset: 32255632
+    sourceAssetGUID: 6b0a189df0bd4d5448eaefb4e673ace8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_31.png
+  - fileID: 112
+    classID: 28
+    packedSize: 5592568
+    offset: 32259856
+    sourceAssetGUID: 6d926165ea2416f489290ca27cf07763
+    buildTimeAssetPath: Assets/_ignore/condenser_mic/tex/condenser_mic_map.png
+  - fileID: 113
+    classID: 28
+    packedSize: 4224
+    offset: 37852424
+    sourceAssetGUID: 6dda07f1420a968449cf4c6620c44d9f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_20.png
+  - fileID: 114
+    classID: 28
+    packedSize: 4224
+    offset: 37856648
+    sourceAssetGUID: 6fa5cf178eaaa5f42b820f636bb6e0bd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_4.png
+  - fileID: 115
+    classID: 28
+    packedSize: 65664
+    offset: 37860872
+    sourceAssetGUID: 70d0a1182b29d6347ac70374c3593bba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_7.png
+  - fileID: 116
+    classID: 28
+    packedSize: 4224
+    offset: 37926536
+    sourceAssetGUID: 70f23eaf7d8ae9147aa542d20e93733b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_56.png
+  - fileID: 117
+    classID: 28
+    packedSize: 4224
+    offset: 37930760
+    sourceAssetGUID: 71583cfd8899717428d5b1a95fa39cda
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_9.png
+  - fileID: 118
+    classID: 28
+    packedSize: 4224
+    offset: 37934984
+    sourceAssetGUID: 71bc1b6b66e8b784b972199b7e90204e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_43.png
+  - fileID: 119
+    classID: 28
+    packedSize: 1398256
+    offset: 37939208
+    sourceAssetGUID: 727515523dc93474cbb7746cd5f412a7
+    buildTimeAssetPath: Assets/_ignore/YughuesFreeSandMaterials/Textures/T_YFSM_01_s.tga
+  - fileID: 120
+    classID: 28
+    packedSize: 4224
+    offset: 39337464
+    sourceAssetGUID: 729a3ae164bcb3b4380459386adcf331
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_19.png
+  - fileID: 121
+    classID: 28
+    packedSize: 268924
+    offset: 39341688
+    sourceAssetGUID: 73ec4ae984a0a0f44a2be737e41a6f2f
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga
+  - fileID: 122
+    classID: 28
+    packedSize: 4224
+    offset: 39610616
+    sourceAssetGUID: 74aca53eb7273624baffc2bf5e5cc173
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_18.png
+  - fileID: 123
+    classID: 28
+    packedSize: 2796340
+    offset: 39614840
+    sourceAssetGUID: 75d39c53a873fac46856cf3927722057
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Bar_tex/Sign_tex.png
+  - fileID: 124
+    classID: 28
+    packedSize: 4224
+    offset: 42411184
+    sourceAssetGUID: 771903fe7b4674445829e52e91cff019
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_11.png
+  - fileID: 125
+    classID: 28
+    packedSize: 699188
+    offset: 42415408
+    sourceAssetGUID: 7780144c363d48142917ecf8e435dd37
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Leaf_tex.png
+  - fileID: 126
+    classID: 28
+    packedSize: 4224
+    offset: 43114600
+    sourceAssetGUID: 79b86f3419b87f3429164a956da8cfab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_6.png
+  - fileID: 127
+    classID: 28
+    packedSize: 192104
+    offset: 43118824
+    sourceAssetGUID: 7da426adea7dae64d8e966214e7f815e
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Images/\uC591\uB3C4\uB07C
+      \uC18C\uC18C\uCF58 \uB300\uAE30.png"
+  - fileID: 128
+    classID: 28
+    packedSize: 699192
+    offset: 43310928
+    sourceAssetGUID: 806f249a985884140a87764a1994a81a
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Bar_tex/Bar
+      Roof_tex.png
+  - fileID: 129
+    classID: 28
+    packedSize: 4224
+    offset: 44010120
+    sourceAssetGUID: 85a45a6d8b2ffb84987d2b028ecfb220
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_58.png
+  - fileID: 130
+    classID: 28
+    packedSize: 4224
+    offset: 44014344
+    sourceAssetGUID: 87a5e40cc271ea648b583616f6ebe7fe
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_32.png
+  - fileID: 131
+    classID: 28
+    packedSize: 128
+    offset: 44018568
+    sourceAssetGUID: 892698a4aac8c3a40b5293ff3c97a12f
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium.ttf
+  - fileID: 132
+    classID: 28
+    packedSize: 29052
+    offset: 44018696
+    sourceAssetGUID: 8e48de83cc9dff349a1ec4a3acb3e680
+    buildTimeAssetPath: "Assets/_merubo/Features/\uACE0\uBA64\uB8F0\uB81B/_internals/\uACE0\uBA64\uD504\uB85C\uD544
+      \uBAA8\uC74C/30_\uBBF8\uBBF8\uC9F1\uC9F1\uC138\uC6A9.png"
+  - fileID: 133
+    classID: 28
+    packedSize: 4224
+    offset: 44047752
+    sourceAssetGUID: 8ecbbcae4cc747a4abbc4adce795d25e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_46.png
+  - fileID: 134
+    classID: 28
+    packedSize: 699188
+    offset: 44051976
+    sourceAssetGUID: 8fc64672c19eab649b34389795971033
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Tree_tex.png
+  - fileID: 135
+    classID: 28
+    packedSize: 4224
+    offset: 44751168
+    sourceAssetGUID: 936dea238abb0864ab3985a995e16a29
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_54.png
+  - fileID: 136
+    classID: 28
+    packedSize: 4224
+    offset: 44755392
+    sourceAssetGUID: 9660a4ca1ca8425408ac25c641932977
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png
+  - fileID: 137
+    classID: 28
+    packedSize: 4224
+    offset: 44759616
+    sourceAssetGUID: 980acadb960f8424c94307ec0e585b4e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_12.png
+  - fileID: 138
+    classID: 28
+    packedSize: 65664
+    offset: 44763840
+    sourceAssetGUID: 999434725cbc2be4eb54043b36efd4a8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_6.png
+  - fileID: 139
+    classID: 28
+    packedSize: 4224
+    offset: 44829504
+    sourceAssetGUID: a03c400b0e3959f428ee99dfc6cfc263
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_62.png
+  - fileID: 140
+    classID: 28
+    packedSize: 4224
+    offset: 44833728
+    sourceAssetGUID: a1ae041906217ae44a774d4ca139af50
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_5.png
+  - fileID: 141
+    classID: 28
+    packedSize: 209948
+    offset: 44837952
+    sourceAssetGUID: a1ae527eba8ab5f40971aa38f623d1c8
+    buildTimeAssetPath: Assets/_ignore/StageVol1/Textures/T_TrimSheet_V1_Normal.png
+  - fileID: 142
+    classID: 28
+    packedSize: 4224
+    offset: 45047904
+    sourceAssetGUID: a469f920b21fc7c4fb5b950917ce2fb2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png
+  - fileID: 143
+    classID: 28
+    packedSize: 4224
+    offset: 45052128
+    sourceAssetGUID: aa80dc44aa4fe4c43bb9d51d90cf2958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_29.png
+  - fileID: 144
+    classID: 28
+    packedSize: 65664
+    offset: 45056352
+    sourceAssetGUID: acde5141d5f4f7a4188394bd52c4dc38
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png
+  - fileID: 145
+    classID: 28
+    packedSize: 4224
+    offset: 45122016
+    sourceAssetGUID: afe1e502240079342a0a980484b6da8b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_10.png
+  - fileID: 146
+    classID: 28
+    packedSize: 4224
+    offset: 45126240
+    sourceAssetGUID: aff59c63d25d43f4c938f248837c30fb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_48.png
+  - fileID: 147
+    classID: 28
+    packedSize: 4224
+    offset: 45130464
+    sourceAssetGUID: b266511438fae724f9d3ce6bd26583e8
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_42.png
+  - fileID: 148
+    classID: 28
+    packedSize: 174908
+    offset: 45134688
+    sourceAssetGUID: b35a2290c3c686f48930fd9bb0bcdbed
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Closed Box_tex.png
+  - fileID: 149
+    classID: 28
+    packedSize: 65664
+    offset: 45309600
+    sourceAssetGUID: b52d5033b68309943a2386c270a90f44
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_4.png
+  - fileID: 150
+    classID: 28
+    packedSize: 4224
+    offset: 45375264
+    sourceAssetGUID: b71bb466b71fd13449dd736f63caeb67
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png
+  - fileID: 151
+    classID: 28
+    packedSize: 4224
+    offset: 45379488
+    sourceAssetGUID: b7f000750830ddb4bbc80065b9314ce9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_21.png
+  - fileID: 152
+    classID: 28
+    packedSize: 4224
+    offset: 45383712
+    sourceAssetGUID: b9960364038cbfa4aa49d7b2032d3110
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_45.png
+  - fileID: 153
+    classID: 28
+    packedSize: 4224
+    offset: 45387936
+    sourceAssetGUID: bdd06fb88ef36ed4a85dd506352c2d80
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_27.png
+  - fileID: 154
+    classID: 28
+    packedSize: 4224
+    offset: 45392160
+    sourceAssetGUID: bf95b6fdc179b0e4f890c841406193fc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_17.png
+  - fileID: 155
+    classID: 28
+    packedSize: 4224
+    offset: 45396384
+    sourceAssetGUID: bfe953600e8fb1849a804ee08ace7b4c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_23.png
+  - fileID: 156
+    classID: 28
+    packedSize: 65664
+    offset: 45400608
+    sourceAssetGUID: c072b653e98a06e40857d76ca8c7eecd
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_3.png
+  - fileID: 157
+    classID: 28
+    packedSize: 4224
+    offset: 45466272
+    sourceAssetGUID: c55042318a938344ab23cd7f09dd0076
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_8.png
+  - fileID: 158
+    classID: 28
+    packedSize: 699192
+    offset: 45470496
+    sourceAssetGUID: c6d45202e682b6d45895ed4d49c0e07f
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Changing
+      Room_tex/CR Blue_tex.png
+  - fileID: 159
+    classID: 28
+    packedSize: 4224
+    offset: 46169688
+    sourceAssetGUID: c94b57b5a32a22d43ade66e09f6a4bd2
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_53.png
+  - fileID: 160
+    classID: 28
+    packedSize: 4224
+    offset: 46173912
+    sourceAssetGUID: cd9006dc442cc244e89b3f492384d46a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_41.png
+  - fileID: 161
+    classID: 28
+    packedSize: 98272
+    offset: 46178136
+    sourceAssetGUID: ce865f8ae4c149e4bb6596fd3d6456d9
+    buildTimeAssetPath: Assets/_ignore/StageVol1/Textures/T_TrimSheet_V1_BaseMap.png
+  - fileID: 162
+    classID: 28
+    packedSize: 262272
+    offset: 46276408
+    sourceAssetGUID: d12e0881d40ee14419bbc25d3fc9af0e
+    buildTimeAssetPath: "Assets/_merubo/Features/BroadCamSystem/_internals/Images/\uC544\uC774\uCF58.png"
+  - fileID: 163
+    classID: 28
+    packedSize: 4224
+    offset: 46538680
+    sourceAssetGUID: d2e8e90fac2e6a341a38e1c3963c218d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_52.png
+  - fileID: 164
+    classID: 28
+    packedSize: 4224
+    offset: 46542904
+    sourceAssetGUID: d5a51525b27e3ee4aadbeb39cbcf0750
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_51.png
+  - fileID: 165
+    classID: 28
+    packedSize: 4224
+    offset: 46547128
+    sourceAssetGUID: d8c290e38ff0425409d0ae6a98c95e41
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_50.png
+  - fileID: 166
+    classID: 28
+    packedSize: 4224
+    offset: 46551352
+    sourceAssetGUID: d96974690c77f50489eb60ec84bd8dac
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_59.png
+  - fileID: 167
+    classID: 28
+    packedSize: 1152
+    offset: 46555576
+    sourceAssetGUID: d99701099481a2f489610e977df6dcbc
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/SearchTex.tga
+  - fileID: 168
+    classID: 28
+    packedSize: 699200
+    offset: 46556728
+    sourceAssetGUID: dc4757731c82a24439cc905865e99800
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Chair_tex/Lounger
+      Planks_tex.png
+  - fileID: 169
+    classID: 28
+    packedSize: 4224
+    offset: 47255928
+    sourceAssetGUID: df01d03f056c6f445b4b8a0ae054207c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_22.png
+  - fileID: 170
+    classID: 28
+    packedSize: 4224
+    offset: 47260152
+    sourceAssetGUID: e138166e7a7c70f49943be7edda35d35
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_57.png
+  - fileID: 171
+    classID: 28
+    packedSize: 82560
+    offset: 47264376
+    sourceAssetGUID: e54e41e6151ec4542b1fda4ba0dda4cc
+    buildTimeAssetPath: Assets/_ignore/NOT_Lonely/HQ_RetroFarmhouse/Textures/Unwrapped/BathCurtain/BathCurtain_m_g.tif
+  - fileID: 172
+    classID: 28
+    packedSize: 349684
+    offset: 47346936
+    sourceAssetGUID: e7e1b2c7eb4f10b4db5ba1eea4cb5209
+    buildTimeAssetPath: Assets/_ignore/NOT_Lonely/HQ_RetroFarmhouse/Textures/Unwrapped/BathCurtain/BathCurtain_n.tif
+  - fileID: 173
+    classID: 28
+    packedSize: 5592560
+    offset: 47696624
+    sourceAssetGUID: e9763e302ae5d493592ae3c8650fdef5
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Textures/ColorPalette.png
+  - fileID: 174
+    classID: 28
+    packedSize: 174904
+    offset: 53289184
+    sourceAssetGUID: e9899154894d3cc47a7a12ce368b407d
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Umbrella_tex.png
+  - fileID: 175
+    classID: 28
+    packedSize: 4224
+    offset: 53464088
+    sourceAssetGUID: f4b8ab78b57749d4e96d36f6d8a395d0
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_25.png
+  - fileID: 176
+    classID: 28
+    packedSize: 4224
+    offset: 53468312
+    sourceAssetGUID: f6439b54b28f3884eb67579dec0b6f21
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_14.png
+  - fileID: 177
+    classID: 28
+    packedSize: 699200
+    offset: 53472536
+    sourceAssetGUID: f9b7841777f19d84797c5bd883108f4e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Chair_tex/Lounger
+      Frame_tex.png
+  - fileID: 178
+    classID: 28
+    packedSize: 699200
+    offset: 54171736
+    sourceAssetGUID: fbfc7e1391701ba498be4be0240dfdd9
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Textures/Beach Chair_tex/Deck
+      Chair Frame_tex.png
+  - fileID: 179
+    classID: 28
+    packedSize: 1048720
+    offset: 54870936
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 180
+    classID: 28
+    packedSize: 1048720
+    offset: 55919656
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 181
+    classID: 28
+    packedSize: 1048720
+    offset: 56968376
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 182
+    classID: 43
+    packedSize: 93852
+    offset: 58017096
+    sourceAssetGUID: b840e04e6bbc94796a3b90da0f7b16db
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/SwimmingRing.fbx
+  - fileID: 183
+    classID: 43
+    packedSize: 34700
+    offset: 58110952
+    sourceAssetGUID: 0293771d8b9b2425eb5062bd0dcce44e
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Surfboard.fbx
+  - fileID: 184
+    classID: 43
+    packedSize: 75528
+    offset: 58145656
+    sourceAssetGUID: ab9f05d6a37764944bb63182370133d4
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Bicycle.fbx
+  - fileID: 185
+    classID: 43
+    packedSize: 9024
+    offset: 58221184
+    sourceAssetGUID: 09fa9c8eba779b74da1f174ec3fb635e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Beach Bar.fbx
+  - fileID: 186
+    classID: 43
+    packedSize: 191124
+    offset: 58230208
+    sourceAssetGUID: ceb22e9e143224b2e8c0367248fb4a20
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/SwimmingRing02.fbx
+  - fileID: 187
+    classID: 43
+    packedSize: 392796
+    offset: 58421336
+    sourceAssetGUID: 09fa9c8eba779b74da1f174ec3fb635e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Beach Bar.fbx
+  - fileID: 188
+    classID: 43
+    packedSize: 44376
+    offset: 58814136
+    sourceAssetGUID: 6b0686bb5cfd27f49bcba2402dac6720
+    buildTimeAssetPath: Assets/NoribenLunch/noribenBeamlight/Models/LightShaftCone128.fbx
+  - fileID: 189
+    classID: 43
+    packedSize: 83052
+    offset: 58858512
+    sourceAssetGUID: a986d0cfcb2171846a06e3bf7345d478
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Deck_Chair.fbx
+  - fileID: 190
+    classID: 43
+    packedSize: 9416
+    offset: 58941568
+    sourceAssetGUID: d233ec6668add43e39c5f021a9a7cce1
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/CoconutOpen.fbx
+  - fileID: 191
+    classID: 43
+    packedSize: 57528
+    offset: 58950984
+    sourceAssetGUID: d233ec6668add43e39c5f021a9a7cce1
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/CoconutOpen.fbx
+  - fileID: 192
+    classID: 43
+    packedSize: 22976
+    offset: 59008512
+    sourceAssetGUID: a986d0cfcb2171846a06e3bf7345d478
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Deck_Chair.fbx
+  - fileID: 193
+    classID: 43
+    packedSize: 21600
+    offset: 59031488
+    sourceAssetGUID: bf699b35bab3d49e5958dd24f73686f4
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/IceCream.fbx
+  - fileID: 194
+    classID: 43
+    packedSize: 28344
+    offset: 59053088
+    sourceAssetGUID: 09fa9c8eba779b74da1f174ec3fb635e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Beach Bar.fbx
+  - fileID: 195
+    classID: 43
+    packedSize: 23964
+    offset: 59081432
+    sourceAssetGUID: 09fa9c8eba779b74da1f174ec3fb635e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Beach Bar.fbx
+  - fileID: 196
+    classID: 43
+    packedSize: 145268
+    offset: 59105400
+    sourceAssetGUID: d7b3715fda3984c728f220ea110be179
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Watermelon.fbx
+  - fileID: 197
+    classID: 43
+    packedSize: 14836
+    offset: 59250672
+    sourceAssetGUID: 09fa9c8eba779b74da1f174ec3fb635e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Beach Bar.fbx
+  - fileID: 198
+    classID: 43
+    packedSize: 93856
+    offset: 59265512
+    sourceAssetGUID: 732ffd8e0c0874c3e839b04aa6b78a85
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/SwimmingRing03.fbx
+  - fileID: 199
+    classID: 43
+    packedSize: 92144
+    offset: 59359368
+    sourceAssetGUID: a11d73afc5a394433a8e90e0a65830ca
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Bucket.fbx
+  - fileID: 200
+    classID: 43
+    packedSize: 95964
+    offset: 59451512
+    sourceAssetGUID: e71b6b3dd04c64b22b809318cc70a95e
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/FreezerBag.fbx
+  - fileID: 201
+    classID: 43
+    packedSize: 15168
+    offset: 59547480
+    sourceAssetGUID: 6feefb9a1cb166442bfcdc0a85b9d6e4
+    buildTimeAssetPath: "Assets/_ignore/Etc/\uCF58\uC11C\uD2B8.fbx"
+  - fileID: 202
+    classID: 43
+    packedSize: 35896
+    offset: 59562648
+    sourceAssetGUID: dfd1b4752b783ac4280b97781c1a5188
+    buildTimeAssetPath: Assets/_ignore/Etc/Dot_Stool.blend
+  - fileID: 203
+    classID: 43
+    packedSize: 119680
+    offset: 59598544
+    sourceAssetGUID: 9b3d1949f03464166acbefbd0beb4c73
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/SunHat.fbx
+  - fileID: 204
+    classID: 43
+    packedSize: 26452
+    offset: 59718224
+    sourceAssetGUID: fcb58a422e13ba642a9ecb6e53fc6480
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Sun_Lounger.fbx
+  - fileID: 205
+    classID: 43
+    packedSize: 22364
+    offset: 59744680
+    sourceAssetGUID: 17511c2290010440f8b2b8e4eb20316d
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Book.fbx
+  - fileID: 206
+    classID: 43
+    packedSize: 206924
+    offset: 59767048
+    sourceAssetGUID: 3dbc6e4bc54bbd845ac2c5749225f961
+    buildTimeAssetPath: Assets/_ignore/NOT_Lonely/HQ_RetroFarmhouse/Meshes/BathCurtain_B.FBX
+  - fileID: 207
+    classID: 43
+    packedSize: 117932
+    offset: 59973976
+    sourceAssetGUID: c159723c23b3c4eae9221498bb12a733
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Waterpolo.fbx
+  - fileID: 208
+    classID: 43
+    packedSize: 77908
+    offset: 60091912
+    sourceAssetGUID: e18c38ed2ffa74a15abea2e2e24e180b
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/IceCream02.fbx
+  - fileID: 209
+    classID: 43
+    packedSize: 963456
+    offset: 60169824
+    sourceAssetGUID: 4e75d2791273c134584a6d47f6025d9f
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Palm Tree.fbx
+  - fileID: 210
+    classID: 43
+    packedSize: 89160
+    offset: 61133280
+    sourceAssetGUID: 7e22464b7c18e4fa986206373802017a
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Airbed02.fbx
+  - fileID: 211
+    classID: 43
+    packedSize: 1954144
+    offset: 61222440
+    sourceAssetGUID: b85daafb761ff8147bfe850c495b7d6e
+    buildTimeAssetPath: Assets/_ignore/condenser_mic/fbx/condenser_mic.fbx
+  - fileID: 212
+    classID: 43
+    packedSize: 35032
+    offset: 63176584
+    sourceAssetGUID: 54976e366b520419ab0ce7ddc3c1b00a
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Coconut.fbx
+  - fileID: 213
+    classID: 43
+    packedSize: 1369884
+    offset: 63211616
+    sourceAssetGUID: 4f0c79869467db0458a8c59cdb07b09b
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Duck.fbx
+  - fileID: 214
+    classID: 43
+    packedSize: 20152
+    offset: 64581504
+    sourceAssetGUID: 09fa9c8eba779b74da1f174ec3fb635e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Beach Bar.fbx
+  - fileID: 215
+    classID: 43
+    packedSize: 42960
+    offset: 64601656
+    sourceAssetGUID: d233ec6668add43e39c5f021a9a7cce1
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/CoconutOpen.fbx
+  - fileID: 216
+    classID: 43
+    packedSize: 132572
+    offset: 64644616
+    sourceAssetGUID: 8eb4735ae79a3416581f5771005f8142
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/RescueRing.fbx
+  - fileID: 217
+    classID: 43
+    packedSize: 18736
+    offset: 64777192
+    sourceAssetGUID: f82b651f873f44c0eb7e06e98877a5f3
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Case02A.fbx
+  - fileID: 218
+    classID: 43
+    packedSize: 318896
+    offset: 64795928
+    sourceAssetGUID: ab9f05d6a37764944bb63182370133d4
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Bicycle.fbx
+  - fileID: 219
+    classID: 43
+    packedSize: 70508
+    offset: 65114824
+    sourceAssetGUID: 24b252e1155254393a82322a96821225
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Surfboard03.fbx
+  - fileID: 220
+    classID: 43
+    packedSize: 37168
+    offset: 65185336
+    sourceAssetGUID: 09fa9c8eba779b74da1f174ec3fb635e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Beach Bar.fbx
+  - fileID: 221
+    classID: 43
+    packedSize: 117932
+    offset: 65222504
+    sourceAssetGUID: e4da8a258cbd24fdf872b71b226ebcb8
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Waterpolo01.fbx
+  - fileID: 222
+    classID: 43
+    packedSize: 27608
+    offset: 65340440
+    sourceAssetGUID: fcb58a422e13ba642a9ecb6e53fc6480
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Sun_Lounger.fbx
+  - fileID: 223
+    classID: 43
+    packedSize: 749200
+    offset: 65368048
+    sourceAssetGUID: 4e75d2791273c134584a6d47f6025d9f
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Palm Tree.fbx
+  - fileID: 224
+    classID: 43
+    packedSize: 8688
+    offset: 66117248
+    sourceAssetGUID: eab952c72c2ad3845ad66bc1e87ff966
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Closed Coolbox.fbx
+  - fileID: 225
+    classID: 43
+    packedSize: 27064
+    offset: 66125936
+    sourceAssetGUID: e71b6b3dd04c64b22b809318cc70a95e
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/FreezerBag.fbx
+  - fileID: 226
+    classID: 43
+    packedSize: 117028
+    offset: 66153000
+    sourceAssetGUID: 57ae323e741fa4666874f83405658241
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Pineapple.fbx
+  - fileID: 227
+    classID: 43
+    packedSize: 498960
+    offset: 66270032
+    sourceAssetGUID: f82b651f873f44c0eb7e06e98877a5f3
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Case02A.fbx
+  - fileID: 228
+    classID: 43
+    packedSize: 11064
+    offset: 66768992
+    sourceAssetGUID: eab952c72c2ad3845ad66bc1e87ff966
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Closed Coolbox.fbx
+  - fileID: 229
+    classID: 43
+    packedSize: 406980
+    offset: 66780056
+    sourceAssetGUID: ad2d7f6bf7edc074fae49ddf21f6e77e
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Volleyball.fbx
+  - fileID: 230
+    classID: 43
+    packedSize: 2474620
+    offset: 67187040
+    sourceAssetGUID: dfd1b4752b783ac4280b97781c1a5188
+    buildTimeAssetPath: Assets/_ignore/Etc/Dot_Stool.blend
+  - fileID: 231
+    classID: 43
+    packedSize: 9668
+    offset: 69661664
+    sourceAssetGUID: ba4d066246a0aa348a5866f419efaa9f
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Changing Room.fbx
+  - fileID: 232
+    classID: 43
+    packedSize: 75532
+    offset: 69671336
+    sourceAssetGUID: ab9f05d6a37764944bb63182370133d4
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/Bicycle.fbx
+  - fileID: 233
+    classID: 43
+    packedSize: 13948
+    offset: 69746872
+    sourceAssetGUID: 8c5921df1d97441a79d33be7cdee4688
+    buildTimeAssetPath: Assets/_ignore/SummerItems/Models/BeachTowel.fbx
+  - fileID: 234
+    classID: 43
+    packedSize: 306344
+    offset: 69760824
+    sourceAssetGUID: 876ebfc6dbcf1974d8516d041ae02011
+    buildTimeAssetPath: Assets/_ignore/Kayzaart - Beach Objects/Meshes/Umbrella.fbx
+  - fileID: 235
+    classID: 48
+    packedSize: 18848
+    offset: 70067168
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 236
+    classID: 48
+    packedSize: 187848
+    offset: 70086016
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 237
+    classID: 48
+    packedSize: 322660
+    offset: 70273864
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 238
+    classID: 48
+    packedSize: 10256
+    offset: 70596528
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 239
+    classID: 48
+    packedSize: 4440
+    offset: 70606784
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 240
+    classID: 48
+    packedSize: 6132
+    offset: 70611224
+    sourceAssetGUID: 02d2da9bc88d25c4d878c1ed4e0b3854
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader
+  - fileID: 241
+    classID: 48
+    packedSize: 10980
+    offset: 70617360
+    sourceAssetGUID: 0d8afcb51cc9f0349a6d190da929b838
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader
+  - fileID: 242
+    classID: 48
+    packedSize: 61360
+    offset: 70628344
+    sourceAssetGUID: 0ef78d24e85a44f4da9d5b5eaa00e50b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader
+  - fileID: 243
+    classID: 48
+    packedSize: 9372
+    offset: 70689704
+    sourceAssetGUID: 14dbb8e17acd2fc419565a795f0bbca7
+    buildTimeAssetPath: Assets/NoribenLunch/noribenBeamlight/Shaders/noribenBeamLight.shader
+  - fileID: 244
+    classID: 48
+    packedSize: 49888
+    offset: 70699080
+    sourceAssetGUID: 1ccecd9b89b8a4f14bfb64f29ddfcc81
+    buildTimeAssetPath: Packages/com.unity.probuilder/Content/Shader/StandardVertexColor.shader
+  - fileID: 245
+    classID: 48
+    packedSize: 19860
+    offset: 70748968
+    sourceAssetGUID: 2c459b89a7c8b1a4fbefe0d81341651c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader
+  - fileID: 246
+    classID: 48
+    packedSize: 4056
+    offset: 70768832
+    sourceAssetGUID: 3020ac7ece79a7f4eb789a236f8bd6c5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader
+  - fileID: 247
+    classID: 48
+    packedSize: 6584
+    offset: 70772888
+    sourceAssetGUID: 34a819c9e33402547a81619693adc8d5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader
+  - fileID: 248
+    classID: 48
+    packedSize: 1075848
+    offset: 70779472
+    sourceAssetGUID: 382151503e2a43a4ebb7366d1632731d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader
+  - fileID: 249
+    classID: 48
+    packedSize: 7180
+    offset: 71855320
+    sourceAssetGUID: 4117fce9491711c4094d33a048e36e73
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader
+  - fileID: 250
+    classID: 48
+    packedSize: 6176
+    offset: 71862504
+    sourceAssetGUID: 4bf4cff0d0bac3d43894e2e8839feb40
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader
+  - fileID: 251
+    classID: 48
+    packedSize: 9676
+    offset: 71868680
+    sourceAssetGUID: 51bcf79c50dc92e47ba87821b61100c3
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader
+  - fileID: 252
+    classID: 48
+    packedSize: 3732
+    offset: 71878360
+    sourceAssetGUID: 5ab0816423f0dfe45841cab3b05ec9ef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader
+  - fileID: 253
+    classID: 48
+    packedSize: 12528
+    offset: 71882096
+    sourceAssetGUID: 67f9497810829eb4791ec19e95781e51
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader
+  - fileID: 254
+    classID: 48
+    packedSize: 18428
+    offset: 71894624
+    sourceAssetGUID: 68e6db2ebdc24f95958faec2be5558d6
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  - fileID: 255
+    classID: 48
+    packedSize: 5008
+    offset: 71913056
+    sourceAssetGUID: 693137b858e4dc64c83be531351f45e6
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Sample Assets/Shaders/Mirror.shader
+  - fileID: 256
+    classID: 48
+    packedSize: 16128
+    offset: 71918064
+    sourceAssetGUID: 7ad194cbe7d006f4bace915156972026
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader
+  - fileID: 257
+    classID: 48
+    packedSize: 23380
+    offset: 71934192
+    sourceAssetGUID: 81af42a93ade3dd46a9b583d4eec76d6
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader
+  - fileID: 258
+    classID: 48
+    packedSize: 4072
+    offset: 71957576
+    sourceAssetGUID: a71093f2a4fe26a40805c22739e10e4a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader
+  - fileID: 259
+    classID: 48
+    packedSize: 13316
+    offset: 71961648
+    sourceAssetGUID: b34a29e523cb9d545881e193a079f2df
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader
+  - fileID: 260
+    classID: 48
+    packedSize: 23072
+    offset: 71974968
+    sourceAssetGUID: b958ad1c92bd3d64c9e61318b8681dab
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader
+  - fileID: 261
+    classID: 48
+    packedSize: 28364
+    offset: 71998040
+    sourceAssetGUID: c1e1d3119c6fd4646aea0b4b74cacc1a
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader
+  - fileID: 262
+    classID: 48
+    packedSize: 6408
+    offset: 72026408
+    sourceAssetGUID: cdbdb71de5f9c454b980f6d0e87f0afb
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader
+  - fileID: 263
+    classID: 48
+    packedSize: 30444
+    offset: 72032816
+    sourceAssetGUID: d7640629310e79646af0f46eb55ae466
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader
+  - fileID: 264
+    classID: 48
+    packedSize: 6196
+    offset: 72063264
+    sourceAssetGUID: e8ce9961912f3214586fe8709b9012c1
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader
+  - fileID: 265
+    classID: 48
+    packedSize: 52476
+    offset: 72069464
+    sourceAssetGUID: f75014305794b3948a3c6d5ccd550e05
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader
+  - fileID: 266
+    classID: 48
+    packedSize: 5136
+    offset: 72121944
+    sourceAssetGUID: f7ea35cfb33fcad4ab8f2429ec103bef
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader
+  - fileID: 267
+    classID: 48
+    packedSize: 16780
+    offset: 72127080
+    sourceAssetGUID: f997a3dc9254c44459323cced085150c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader
+  - fileID: 268
+    classID: 48
+    packedSize: 15396
+    offset: 72143864
+    sourceAssetGUID: fe393ace9b354375a9cb14cdbbc28be4
+    buildTimeAssetPath: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  - fileID: 269
+    classID: 49
+    packedSize: 2104
+    offset: 72159264
+    sourceAssetGUID: 1ebdc2d2f8931084fb55378523d6677c
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/SongData/06_\uBD80\uB044\uB7FC.txt"
+  - fileID: 270
+    classID: 49
+    packedSize: 2488
+    offset: 72161368
+    sourceAssetGUID: 319635b7116de8d4fb79222c43b0d3f3
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/SongData/03_\uAD00\uAC1D\uC774\uB420\uAC8C.txt"
+  - fileID: 271
+    classID: 49
+    packedSize: 2952
+    offset: 72163856
+    sourceAssetGUID: 678485d471279614e8207642d5dd4d6c
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/SongData/01_\uC0AC\uC774\uB2E4\uBC45.txt"
+  - fileID: 272
+    classID: 49
+    packedSize: 1560
+    offset: 72166808
+    sourceAssetGUID: 72f9e635d36aceb4dbb5b3cde53d703a
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/SongData/05_\uCC45\uBC29\uC624\uBE60\uBB38\uD559\uC18C\uB140.txt"
+  - fileID: 273
+    classID: 49
+    packedSize: 5752
+    offset: 72168368
+    sourceAssetGUID: 8a6785c7ab4894649a8f5b91240781ce
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/SongData/04_\uC18C\uBB38\uC758\uADF8\uC560.txt"
+  - fileID: 274
+    classID: 49
+    packedSize: 5224
+    offset: 72174120
+    sourceAssetGUID: cac14b55b6a9fc648a4945cf2fa984ca
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/SongData/02_\uBA5C\uB77C.txt"
+  - fileID: 275
+    classID: 49
+    packedSize: 8016
+    offset: 72179344
+    sourceAssetGUID: da2fbe688dc94fb49acf0c09301f56bf
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/SongData/08_\uBC14\uB2E4\uAC00\uC774\uB044\uB294\uB300\uB85C.txt"
+  - fileID: 276
+    classID: 49
+    packedSize: 2268
+    offset: 72187360
+    sourceAssetGUID: f83b5adf0cd65494ab2a3367808ce411
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/SongData/07_\uB108\uC758\uC77C\uC0C1\uC5D0\uC6C3\uC74C\uAF43.txt"
+  - fileID: 277
+    classID: 72
+    packedSize: 1900
+    offset: 72189632
+    sourceAssetGUID: 18183ebfeeab97749b43e38b928604a7
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute
+  - fileID: 278
+    classID: 72
+    packedSize: 1608
+    offset: 72191536
+    sourceAssetGUID: 31e9175024adfd44aba2530ff9b77494
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute
+  - fileID: 279
+    classID: 72
+    packedSize: 95828
+    offset: 72193144
+    sourceAssetGUID: 34845e0ca016b7448842e965db5890a5
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute
+  - fileID: 280
+    classID: 72
+    packedSize: 80092
+    offset: 72288976
+    sourceAssetGUID: 34a460e8a2e66c243a9c12024e5a798d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute
+  - fileID: 281
+    classID: 72
+    packedSize: 21684
+    offset: 72369072
+    sourceAssetGUID: 42496b74c071f5749950ca1abe33e945
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute
+  - fileID: 282
+    classID: 72
+    packedSize: 5136
+    offset: 72390760
+    sourceAssetGUID: 4c63bc487e6c29a4a99f85a6c47b292b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute
+  - fileID: 283
+    classID: 72
+    packedSize: 185808
+    offset: 72395896
+    sourceAssetGUID: 600d6212b59bb40409d19d750b5fd1e9
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute
+  - fileID: 284
+    classID: 72
+    packedSize: 6480
+    offset: 72581704
+    sourceAssetGUID: 6dba4103d23a7904fbc49099355aff3e
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute
+  - fileID: 285
+    classID: 72
+    packedSize: 1724
+    offset: 72588184
+    sourceAssetGUID: 8c2fcbdf9bc58664f89917f7b9d79501
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute
+  - fileID: 286
+    classID: 72
+    packedSize: 1912
+    offset: 72589912
+    sourceAssetGUID: 92c63830cd50c0b4fbb8233613839958
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute
+  - fileID: 287
+    classID: 72
+    packedSize: 2032
+    offset: 72591824
+    sourceAssetGUID: e1efca7c36fd01840aae0dd10378de5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute
+  - fileID: 288
+    classID: 72
+    packedSize: 2040
+    offset: 72593856
+    sourceAssetGUID: e4d3e4779e48a374f91d48d4c0aedb7b
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute
+  - fileID: 289
+    classID: 74
+    packedSize: 2296
+    offset: 72595896
+    sourceAssetGUID: 0118a8a773bffc94da5201d68538ceef
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Animation/\uB178\uB798\uD14D\uC2A4\uD2B8_idle.anim"
+  - fileID: 290
+    classID: 74
+    packedSize: 2460
+    offset: 72598192
+    sourceAssetGUID: 04df531f4f457064cad36c017d55e9ce
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Animation/\uB178\uB798\uD14D\uC2A4\uD2B8_move.anim"
+  - fileID: 291
+    classID: 74
+    packedSize: 6128
+    offset: 72600656
+    sourceAssetGUID: 5946c2a64399272458ec6874135fa0a9
+    buildTimeAssetPath: "Assets/_projects/_archive/Assets/[\uCE74\uBA54\uB77C \uBAA9\uB85D]
+      (1)Timeline.playable"
+  - fileID: 292
+    classID: 83
+    packedSize: 160
+    offset: 72606784
+    sourceAssetGUID: 55e73fcf90555b047af662ee9a8ffbd1
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/01_\uC0AC\uC774\uB2E4\uBC45.mp3"
+  - fileID: 293
+    classID: 83
+    packedSize: 164
+    offset: 72606944
+    sourceAssetGUID: 588fb6582cf4f504d905c4047fd1ab30
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/03_\uAD00\uAC1D\uC774\uB420\uAC8C.mp3"
+  - fileID: 294
+    classID: 83
+    packedSize: 156
+    offset: 72607112
+    sourceAssetGUID: 620d220de53b54b4584b9f6958dc2138
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/02_\uBA5C\uB77C.mp3"
+  - fileID: 295
+    classID: 83
+    packedSize: 172
+    offset: 72607272
+    sourceAssetGUID: a5b03cbba9bd19e43b031c7ede7f28f9
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/05_\uCC45\uBC29\uC624\uBE60\uBB38\uD559\uC18C\uB140.mp3"
+  - fileID: 296
+    classID: 83
+    packedSize: 168
+    offset: 72607448
+    sourceAssetGUID: aa5080c8df864364590d71432b94da55
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/07_\uC591\uB3C4\uB07C-\uB108\uC77C\uC6C3.mp3"
+  - fileID: 297
+    classID: 83
+    packedSize: 172
+    offset: 72607616
+    sourceAssetGUID: d2a1c8e83a751f644bc13ae95e967c2f
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/06_\uBA5C\uB85C\uB9DD\uC2A4-\uBD80\uB044\uB7FC.mp3"
+  - fileID: 298
+    classID: 83
+    packedSize: 184
+    offset: 72607792
+    sourceAssetGUID: daab7008bf1aa30469fa2c2325995ec8
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/08_\uC694\uC544\uC18C\uBE44-\uBC14\uB2E4\uAC00\uC774\uB044\uB294\uB300\uB85C.mp3"
+  - fileID: 299
+    classID: 83
+    packedSize: 164
+    offset: 72607976
+    sourceAssetGUID: edd2d41fcd8e0414b9fe4bebdcb542e5
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Sounds/\uC784\uC2DC\uC74C\uC6D0/04_\uC18C\uBB38\uC758\uADF8\uC560.mp3"
+  - fileID: 300
+    classID: 84
+    packedSize: 92
+    offset: 72608144
+    sourceAssetGUID: 1be9fc79be78bb24e80d5e90f30ebdc1
+    buildTimeAssetPath: "Assets/_merubo/Features/BroadCamSystem/_internals/RenderTextures/\uC1A1\uCD9C
+      RT.renderTexture"
+  - fileID: 301
+    classID: 84
+    packedSize: 92
+    offset: 72608240
+    sourceAssetGUID: dd0c9acf406745a43b8a564741e24bce
+    buildTimeAssetPath: "Assets/_merubo/Features/BroadCamSystem/_internals/RenderTextures/\uD578\uB4DC\uCEA0
+      RT.renderTexture"
+  - fileID: 302
+    classID: 91
+    packedSize: 1044
+    offset: 72608336
+    sourceAssetGUID: 4b7db1e5fd66a2e4492c248c14669ca8
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Animation/\uB178\uB798\uD14D\uC2A4\uD2B8\uC14B.controller"
+  - fileID: 303
+    classID: 115
+    packedSize: 100
+    offset: 200528
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 304
+    classID: 115
+    packedSize: 92
+    offset: 200632
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 305
+    classID: 115
+    packedSize: 96
+    offset: 200728
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 306
+    classID: 115
+    packedSize: 108
+    offset: 200824
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 307
+    classID: 115
+    packedSize: 108
+    offset: 200936
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 308
+    classID: 115
+    packedSize: 92
+    offset: 201048
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 309
+    classID: 115
+    packedSize: 84
+    offset: 201144
+    sourceAssetGUID: 1344c3c82d62a2a41a3576d8abb8e3ea
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/RawImage.cs
+  - fileID: 310
+    classID: 115
+    packedSize: 140
+    offset: 201232
+    sourceAssetGUID: 30f4b897495c7ad40b2d47143e02aaba
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs
+  - fileID: 311
+    classID: 115
+    packedSize: 76
+    offset: 201376
+    sourceAssetGUID: 31a19414c41e5ae4aae2af33fee712f6
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Mask.cs
+  - fileID: 312
+    classID: 115
+    packedSize: 84
+    offset: 201456
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 313
+    classID: 115
+    packedSize: 108
+    offset: 201544
+    sourceAssetGUID: 45e653bab7fb20e499bda25e1b646fea
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineVirtualCamera.cs
+  - fileID: 314
+    classID: 115
+    packedSize: 116
+    offset: 201656
+    sourceAssetGUID: 48a79b01ea5641d4aa6daa2e23605641
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs
+  - fileID: 315
+    classID: 115
+    packedSize: 84
+    offset: 201776
+    sourceAssetGUID: 4e29b1a8efbd4b44bb3f3716e73f07ff
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+  - fileID: 316
+    classID: 115
+    packedSize: 112
+    offset: 201864
+    sourceAssetGUID: 4f10dd60657c6004587f237a7e90f8e4
+    buildTimeAssetPath: Packages/com.unity.timeline/Runtime/Audio/AudioPlayableAsset.cs
+  - fileID: 317
+    classID: 115
+    packedSize: 124
+    offset: 201976
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 318
+    classID: 115
+    packedSize: 92
+    offset: 202104
+    sourceAssetGUID: 57f24a4aaa0761b45ba25e7e5108e2c7
+    buildTimeAssetPath: Assets/Bakery/BakeryPointLight.cs
+  - fileID: 319
+    classID: 115
+    packedSize: 76
+    offset: 202200
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 320
+    classID: 115
+    packedSize: 132
+    offset: 202280
+    sourceAssetGUID: 68bb026fafb42b14791938953eaace77
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Components/CinemachineBasicMultiChannelPerlin.cs
+  - fileID: 321
+    classID: 115
+    packedSize: 96
+    offset: 202416
+    sourceAssetGUID: 71c1514a6bd24e1e882cebbe1904ce04
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TMP_FontAsset.cs
+  - fileID: 322
+    classID: 115
+    packedSize: 92
+    offset: 202512
+    sourceAssetGUID: 72ece51f2901e7445ab60da3685d6b5f
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachineBrain.cs
+  - fileID: 323
+    classID: 115
+    packedSize: 100
+    offset: 202608
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 324
+    classID: 115
+    packedSize: 100
+    offset: 202712
+    sourceAssetGUID: 8a8695521f0d02e499659fee002a26c2
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/GridLayoutGroup.cs
+  - fileID: 325
+    classID: 115
+    packedSize: 96
+    offset: 202816
+    sourceAssetGUID: 8b22792c3b570444eb18cb78c2af3a74
+    buildTimeAssetPath: Packages/com.unity.timeline/Runtime/Audio/AudioTrack.cs
+  - fileID: 326
+    classID: 115
+    packedSize: 140
+    offset: 202912
+    sourceAssetGUID: 8b9a305e18de0c04dbd257a21cd47087
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessVolume.cs
+  - fileID: 327
+    classID: 115
+    packedSize: 140
+    offset: 203056
+    sourceAssetGUID: 8e6292b2c06870d4495f009f912b9600
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs
+  - fileID: 328
+    classID: 115
+    packedSize: 132
+    offset: 203200
+    sourceAssetGUID: 948f4100a11a5c24981795d21301da5c
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessLayer.cs
+  - fileID: 329
+    classID: 115
+    packedSize: 100
+    offset: 203336
+    sourceAssetGUID: ac0b09e7857660247b1477e93731de29
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Behaviours/CinemachinePipeline.cs
+  - fileID: 330
+    classID: 115
+    packedSize: 124
+    offset: 203440
+    sourceAssetGUID: adb84e30e02715445aeb9959894e3b4d
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ColorGrading.cs
+  - fileID: 331
+    classID: 115
+    packedSize: 124
+    offset: 203568
+    sourceAssetGUID: b3f6f3f7c722b4544b97e3c75840aa33
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/AutoExposure.cs
+  - fileID: 332
+    classID: 115
+    packedSize: 92
+    offset: 203696
+    sourceAssetGUID: b7f59e54f2bfd184b9dd451a678d089b
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Core/NoiseSettings.cs
+  - fileID: 333
+    classID: 115
+    packedSize: 100
+    offset: 203792
+    sourceAssetGUID: b7fa80e7116296f4eb4f49ec1544ee22
+    buildTimeAssetPath: Assets/Bakery/ftLightmapsStorage.cs
+  - fileID: 334
+    classID: 115
+    packedSize: 124
+    offset: 203896
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 335
+    classID: 115
+    packedSize: 104
+    offset: 204024
+    sourceAssetGUID: bfda56da833e2384a9677cd3c976a436
+    buildTimeAssetPath: Packages/com.unity.timeline/Runtime/TimelineAsset.cs
+  - fileID: 336
+    classID: 115
+    packedSize: 104
+    offset: 204128
+    sourceAssetGUID: d21dcc2386d650c4597f3633c75a1f98
+    buildTimeAssetPath: Packages/com.unity.timeline/Runtime/Animation/AnimationTrack.cs
+  - fileID: 337
+    classID: 115
+    packedSize: 100
+    offset: 204232
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 338
+    classID: 115
+    packedSize: 100
+    offset: 204336
+    sourceAssetGUID: f4044717213e31446939f7bd49c896ea
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Components/CinemachineComposer.cs
+  - fileID: 339
+    classID: 115
+    packedSize: 96
+    offset: 204440
+    sourceAssetGUID: f4688fdb7df04437aeb418b961361dc5
+    buildTimeAssetPath: Packages/com.unity.textmeshpro/Scripts/Runtime/TextMeshProUGUI.cs
+  - fileID: 340
+    classID: 115
+    packedSize: 108
+    offset: 204536
+    sourceAssetGUID: fa7155796051b734daa718462081dc5f
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Runtime/Components/CinemachineTransposer.cs
+  - fileID: 341
+    classID: 115
+    packedSize: 84
+    offset: 204648
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 342
+    classID: 115
+    packedSize: 92
+    offset: 204736
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 343
+    classID: 128
+    packedSize: 2417158
+    offset: 72609384
+    sourceAssetGUID: 03d7be96a5d4468478d77742e60f4c04
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM.TTF
+  - fileID: 344
+    classID: 128
+    packedSize: 5368374
+    offset: 75026544
+    sourceAssetGUID: 892698a4aac8c3a40b5293ff3c97a12f
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium.ttf
+  - fileID: 345
+    classID: 213
+    packedSize: 568
+    offset: 80394920
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 346
+    classID: 213
+    packedSize: 572
+    offset: 80395488
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 347
+    classID: 213
+    packedSize: 24240
+    offset: 80396064
+    sourceAssetGUID: 05f0663f8df17544192061075c892bbc
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Images/\uC18C\uC18C\uCF58_\uB85C\uACE0_\uB300.png"
+  - fileID: 348
+    classID: 213
+    packedSize: 15388
+    offset: 80420304
+    sourceAssetGUID: 678683bd7e579b44388f9974e65b60b3
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Images/\uC18C\uC18C\uCF58-\uB85C\uACE0-\uAE00\uC528\uC5C6\uC74C.png"
+  - fileID: 349
+    classID: 213
+    packedSize: 480
+    offset: 80435696
+    sourceAssetGUID: 7da426adea7dae64d8e966214e7f815e
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Images/\uC591\uB3C4\uB07C
+      \uC18C\uC18C\uCF58 \uB300\uAE30.png"
+  - fileID: 350
+    classID: 213
+    packedSize: 1640
+    offset: 80436176
+    sourceAssetGUID: d12e0881d40ee14419bbc25d3fc9af0e
+    buildTimeAssetPath: "Assets/_merubo/Features/BroadCamSystem/_internals/Images/\uC544\uC774\uCF58.png"
+  - fileID: 351
+    classID: 114
+    packedSize: 76
+    offset: 80437816
+    sourceAssetGUID: 8356db3d9a4ea7d44bf736c79ed76217
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/03_\uCC45\uBC29\uC624\uBE60\uBB38\uD559\uC18C\uB140Timeline.playable"
+  - fileID: 352
+    classID: 114
+    packedSize: 448
+    offset: 80437896
+    sourceAssetGUID: 2743b4ddcee68fc4e8836d158a04ffe4
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/09_\uC0AC\uC774\uB2E4\uBC45Timeline.playable"
+  - fileID: 353
+    classID: 114
+    packedSize: 448
+    offset: 80438344
+    sourceAssetGUID: 8356db3d9a4ea7d44bf736c79ed76217
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/03_\uCC45\uBC29\uC624\uBE60\uBB38\uD559\uC18C\uB140Timeline.playable"
+  - fileID: 354
+    classID: 114
+    packedSize: 440
+    offset: 80438792
+    sourceAssetGUID: 81b726e4b1ad1b3459e719a769b742f8
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/01_\uAD00\uAC1D\uC774\uB420\uAC8CTimeline.playable"
+  - fileID: 355
+    classID: 114
+    packedSize: 76
+    offset: 80439232
+    sourceAssetGUID: 2743b4ddcee68fc4e8836d158a04ffe4
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/09_\uC0AC\uC774\uB2E4\uBC45Timeline.playable"
+  - fileID: 356
+    classID: 114
+    packedSize: 436
+    offset: 80439312
+    sourceAssetGUID: cd77e012d5d702f4da3aa35b29ee8579
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/06_\uBA5C\uB77CTimeline.playable"
+  - fileID: 357
+    classID: 114
+    packedSize: 76
+    offset: 80439752
+    sourceAssetGUID: 0f463acd3a3aa5c41b9cd4e2821ee4ed
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/05_\uC18C\uBB38\uC758
+      \uADF8\uC560Timeline.playable"
+  - fileID: 358
+    classID: 114
+    packedSize: 76
+    offset: 80439832
+    sourceAssetGUID: 26eaa090e2ce26c468cb0060522dffce
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/07_\uBD80\uB044\uB7FCTimeline.playable"
+  - fileID: 359
+    classID: 114
+    packedSize: 88
+    offset: 80439912
+    sourceAssetGUID: fc38b2602b8fd3240b15f2304e25c9a3
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 360
+    classID: 114
+    packedSize: 7988
+    offset: 80440000
+    sourceAssetGUID: eba923f5c30964f409a4e53d1017c69e
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/2a9c2c95e4e324d428716a17e87a88ca.asset
+  - fileID: 361
+    classID: 114
+    packedSize: 8996
+    offset: 80447992
+    sourceAssetGUID: 2d69b45cdb5c1744f8060ceca6229196
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/348e84412959368498e74487532b5009.asset
+  - fileID: 362
+    classID: 114
+    packedSize: 8364
+    offset: 80456992
+    sourceAssetGUID: 6c0abe2c543efee4999bb0bf8d5b28d9
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/45eb05c43fa3ab54ab770b7412688591.asset
+  - fileID: 363
+    classID: 114
+    packedSize: 2900
+    offset: 80465360
+    sourceAssetGUID: 47b2c78a56a19074a982de22bef574cd
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  - fileID: 364
+    classID: 114
+    packedSize: 6020
+    offset: 80468264
+    sourceAssetGUID: d04c508c194312d47abd00ead37181bc
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/68a7302d12b330d4a89991697f5ce7b2.asset
+  - fileID: 365
+    classID: 114
+    packedSize: 3592
+    offset: 80474288
+    sourceAssetGUID: 00cd54397aec6e849b0410efedae3e50
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/6b9997e46ff012f4987c71d7afc464f4.asset
+  - fileID: 366
+    classID: 114
+    packedSize: 3556
+    offset: 80477880
+    sourceAssetGUID: c0d5847b87356bb44aac48db94e2d948
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/872ebdd3e042b68448d0a0002283dff4.asset
+  - fileID: 367
+    classID: 114
+    packedSize: 2560
+    offset: 80481440
+    sourceAssetGUID: f858c2ce8ff0cde41b523b093a5d91d8
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/87813d86eb9ca62419b92811eb6578a8.asset
+  - fileID: 368
+    classID: 114
+    packedSize: 1496
+    offset: 80484000
+    sourceAssetGUID: eb2bfb42195652f47af61f4c36025f05
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/9f0f024e33ee4c14aaa1b66ac7f51a8c.asset
+  - fileID: 369
+    classID: 114
+    packedSize: 10836
+    offset: 80485496
+    sourceAssetGUID: 95a1936b92614e74ba43887d53ad9db5
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/b08286573b7efe04c97b0aefea618c55.asset
+  - fileID: 370
+    classID: 114
+    packedSize: 1720
+    offset: 80496336
+    sourceAssetGUID: 728ecbd79bd14514e80ab09798c8b200
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+  - fileID: 371
+    classID: 114
+    packedSize: 1836
+    offset: 80498056
+    sourceAssetGUID: af917742469bbc549ae9b85678572766
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/ca79035c893cfa3498da6a1df09d31fb.asset
+  - fileID: 372
+    classID: 114
+    packedSize: 6436
+    offset: 80499896
+    sourceAssetGUID: 8eb414430f0d54b4885d58c1179c08b4
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/d33bbf2f0130ce5419a9e5c088600252.asset
+  - fileID: 373
+    classID: 114
+    packedSize: 7244
+    offset: 80506336
+    sourceAssetGUID: 80e99e78943f67a4d9555aea64f7ce48
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/d551dddd68659df468612fce6585d7d7.asset
+  - fileID: 374
+    classID: 114
+    packedSize: 6644
+    offset: 80513584
+    sourceAssetGUID: 1271985e167cb1943aee680e75628cff
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/df1ff99a59366574a84f27109a45a25c.asset
+  - fileID: 375
+    classID: 114
+    packedSize: 3844
+    offset: 80520232
+    sourceAssetGUID: d71f4d4dd2a3fc64ebb7f01298926490
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/e2af87e3598b0b74b9c3b8eb01cd8510.asset
+  - fileID: 376
+    classID: 114
+    packedSize: 1504
+    offset: 80524080
+    sourceAssetGUID: 8399279cfce732040b1db8eae4659a1e
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/e74ba48a741df894bb1442e1dcd7535d.asset
+  - fileID: 377
+    classID: 114
+    packedSize: 14108
+    offset: 80525584
+    sourceAssetGUID: 6358440c97fcdf140a8cd8db90c6cd60
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/eaf4d0035014c5740a7add9bd28bc2c3.asset
+  - fileID: 378
+    classID: 114
+    packedSize: 5352
+    offset: 80539696
+    sourceAssetGUID: 2b5b55ffef37b81449eb98700bf01d5f
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/fd6e9eb74b3b8074ca11fe68b8c2486a.asset
+  - fileID: 379
+    classID: 114
+    packedSize: 42648
+    offset: 80545048
+    sourceAssetGUID: 8cf13d883d55f64438ad61e2875626e7
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GMARKETSANSTTFMEDIUM
+      SDF.asset
+  - fileID: 380
+    classID: 114
+    packedSize: 27160
+    offset: 80587696
+    sourceAssetGUID: f5da8db6e9f538f45afa2747042b127c
+    buildTimeAssetPath: Assets/_projects/00_core/Assets/Fonts/GenEiMGothic2-Medium
+      SDF.asset
+  - fileID: 381
+    classID: 114
+    packedSize: 116
+    offset: 80614856
+    sourceAssetGUID: 81b726e4b1ad1b3459e719a769b742f8
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/01_\uAD00\uAC1D\uC774\uB420\uAC8CTimeline.playable"
+  - fileID: 382
+    classID: 114
+    packedSize: 128
+    offset: 80614976
+    sourceAssetGUID: 509e70bd1867b9d43a9b04ec49d20823
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/02_\uBC14\uB2E4\uAC00
+      \uC774\uB044\uB294 \uB300\uB85CTimeline.playable"
+  - fileID: 383
+    classID: 114
+    packedSize: 124
+    offset: 80615104
+    sourceAssetGUID: 8356db3d9a4ea7d44bf736c79ed76217
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/03_\uCC45\uBC29\uC624\uBE60\uBB38\uD559\uC18C\uB140Timeline.playable"
+  - fileID: 384
+    classID: 114
+    packedSize: 116
+    offset: 80615232
+    sourceAssetGUID: 0f463acd3a3aa5c41b9cd4e2821ee4ed
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/05_\uC18C\uBB38\uC758
+      \uADF8\uC560Timeline.playable"
+  - fileID: 385
+    classID: 114
+    packedSize: 108
+    offset: 80615352
+    sourceAssetGUID: cd77e012d5d702f4da3aa35b29ee8579
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/06_\uBA5C\uB77CTimeline.playable"
+  - fileID: 386
+    classID: 114
+    packedSize: 108
+    offset: 80615464
+    sourceAssetGUID: 26eaa090e2ce26c468cb0060522dffce
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/07_\uBD80\uB044\uB7FCTimeline.playable"
+  - fileID: 387
+    classID: 114
+    packedSize: 124
+    offset: 80615576
+    sourceAssetGUID: f96d3b3a79011294d92bc94a160164f2
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/08_\uB108\uC758\uC77C\uC0C1\uC5D0\uC6C3\uC74C\uAF43Timeline.playable"
+  - fileID: 388
+    classID: 114
+    packedSize: 112
+    offset: 80615704
+    sourceAssetGUID: 2743b4ddcee68fc4e8836d158a04ffe4
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/09_\uC0AC\uC774\uB2E4\uBC45Timeline.playable"
+  - fileID: 389
+    classID: 114
+    packedSize: 120
+    offset: 80615816
+    sourceAssetGUID: 5946c2a64399272458ec6874135fa0a9
+    buildTimeAssetPath: "Assets/_projects/_archive/Assets/[\uCE74\uBA54\uB77C \uBAA9\uB85D]
+      (1)Timeline.playable"
+  - fileID: 390
+    classID: 114
+    packedSize: 168
+    offset: 80615936
+    sourceAssetGUID: a3dacaec0287d7444b4bd276816e1666
+    buildTimeAssetPath: Packages/com.unity.cinemachine/Presets/Noise/Handheld_tele_mild.asset
+  - fileID: 391
+    classID: 114
+    packedSize: 1380
+    offset: 80616104
+    sourceAssetGUID: d82512f9c8e5d4a4d938b575d47f88d4
+    buildTimeAssetPath: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset
+  - fileID: 392
+    classID: 114
+    packedSize: 76
+    offset: 80617488
+    sourceAssetGUID: 509e70bd1867b9d43a9b04ec49d20823
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/02_\uBC14\uB2E4\uAC00
+      \uC774\uB044\uB294 \uB300\uB85CTimeline.playable"
+  - fileID: 393
+    classID: 114
+    packedSize: 156
+    offset: 80617568
+    sourceAssetGUID: fc38b2602b8fd3240b15f2304e25c9a3
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 394
+    classID: 114
+    packedSize: 116
+    offset: 80617728
+    sourceAssetGUID: fc38b2602b8fd3240b15f2304e25c9a3
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 395
+    classID: 114
+    packedSize: 452
+    offset: 80617848
+    sourceAssetGUID: 0f463acd3a3aa5c41b9cd4e2821ee4ed
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/05_\uC18C\uBB38\uC758
+      \uADF8\uC560Timeline.playable"
+  - fileID: 396
+    classID: 114
+    packedSize: 260
+    offset: 80618304
+    sourceAssetGUID: 5946c2a64399272458ec6874135fa0a9
+    buildTimeAssetPath: "Assets/_projects/_archive/Assets/[\uCE74\uBA54\uB77C \uBAA9\uB85D]
+      (1)Timeline.playable"
+  - fileID: 397
+    classID: 114
+    packedSize: 4984
+    offset: 80618568
+    sourceAssetGUID: fc38b2602b8fd3240b15f2304e25c9a3
+    buildTimeAssetPath: Assets/Post Processing/SilentProfile.asset
+  - fileID: 398
+    classID: 114
+    packedSize: 436
+    offset: 80623552
+    sourceAssetGUID: f96d3b3a79011294d92bc94a160164f2
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/08_\uB108\uC758\uC77C\uC0C1\uC5D0\uC6C3\uC74C\uAF43Timeline.playable"
+  - fileID: 399
+    classID: 114
+    packedSize: 452
+    offset: 80623992
+    sourceAssetGUID: 509e70bd1867b9d43a9b04ec49d20823
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/02_\uBC14\uB2E4\uAC00
+      \uC774\uB044\uB294 \uB300\uB85CTimeline.playable"
+  - fileID: 400
+    classID: 114
+    packedSize: 440
+    offset: 80624448
+    sourceAssetGUID: 26eaa090e2ce26c468cb0060522dffce
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/07_\uBD80\uB044\uB7FCTimeline.playable"
+  - fileID: 401
+    classID: 114
+    packedSize: 76
+    offset: 80624888
+    sourceAssetGUID: f96d3b3a79011294d92bc94a160164f2
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/08_\uB108\uC758\uC77C\uC0C1\uC5D0\uC6C3\uC74C\uAF43Timeline.playable"
+  - fileID: 402
+    classID: 114
+    packedSize: 76
+    offset: 80624968
+    sourceAssetGUID: cd77e012d5d702f4da3aa35b29ee8579
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/06_\uBA5C\uB77CTimeline.playable"
+  - fileID: 403
+    classID: 114
+    packedSize: 76
+    offset: 80625048
+    sourceAssetGUID: 81b726e4b1ad1b3459e719a769b742f8
+    buildTimeAssetPath: "Assets/_projects/01_yangdoki_sosocon_v2/Timelines/01_\uAD00\uAC1D\uC774\uB420\uAC8CTimeline.playable"
